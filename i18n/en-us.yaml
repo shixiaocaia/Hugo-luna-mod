@@ -1,0 +1,153 @@
+backTop: "Back to top"
+
+# hugo encrypt
+encrypt:
+    protectedByPassword: "The following content is protected."
+    enterPassword: "Please enter the password."
+    decrypt: "Decrypt"
+    wrongPassword: "Password is incorrect"
+    encryptNoscript: "Javascript needs to be enabled to decrypt content"
+
+# Links
+linksRank: "In no particular order"
+
+# Archives
+archives:
+    title: "Archives"
+    total: 
+        one: 'Total {{ . }} post'
+        other: 'Total {{ . }} posts'
+    helloWorld: "Hello World!"
+    untitled: "Untitled"
+
+# date
+date:
+    day: "{{ . }}th"
+    d_m_y: "02 Jan 2006"
+    m_y: "Jan 2006"
+    d_m_h_s: "02 Jan 15:04"
+    normal: "02 Jan 2006 15:04:05"
+
+# post
+post:
+    publishedIn: "Published in {{ . }}"
+    readingTime:
+        one: "{{ .Count }} min read"
+        other: "{{ .Count }} mins read"
+    wordCount:
+        one: "{{ .Count }} word"
+        other: "{{ .Count }} words"
+    prevPost: "Prev"
+    nextPost: "Next"
+    license: "Unless otherwise stated, this blog is licensed under"
+    outdatedInfo: 'Last edited {{ . }} days ago, the information described in the text may have changed'
+    lastmod: 'Last modified on: '
+    toc: "Table of Contents"
+    refs: "Refs"
+    archiveCounter:
+        one: '{{ . }} Post In Total'
+        other: '{{ . }} Posts In Total'
+    untitled: "Untitled"
+
+# search
+search:
+    loading: "Loading..."
+    loadFailure: "Initialization of the search engine failed"
+    input: "Type something..."
+    results: 'Found {{ .Count }} results for the keyword {{ .Keyword }}'
+    notEnabled: "Search is not enabled"
+
+# taxonomy
+taxonomy:
+    _tags: "Tags"
+    _categories: "Categories"
+    tag:
+        one: 'Tag {{ .Title }} has {{ .Count }} post'
+        other: 'Tag {{ .Title }} has {{ .Count }} posts'
+    category:
+        one: 'Category {{ .Title }} has {{ .Count }} post'
+        other: 'Category {{ .Title }} has {{ .Count }} posts'
+    totalTags:
+        one: '{{ . }} Tag In Total'
+        other: '{{ . }} Tags In Total'
+    totalCategories: 
+        one: '{{ . }} Category In Total'
+        other: '{{ . }} Categories In Total'
+
+runTime:
+    text: "Run time:"
+    days: "days"
+    hours: "h"
+    minutes: "m"
+    seconds: "s"
+
+# navbar
+navbar:
+    home: "Home"
+    about: "About"
+    links: "Links"
+    github: "GitHub"
+    search: "Search"
+    archives: "Archives"
+    twitter: "Tweet"
+    tags: "Tags"
+    categories: "Categories"
+
+# share
+share:
+    twitter: "Share to twitter"
+    facebook: "Share to facebook"
+    weibo: "Share to weibo"
+    copy: "Copy Link"
+    qrcode: "QR Code"
+
+# pagination
+page:
+    prev: "Prev"
+    next: "Next"
+    page: "Page {{ . }}"
+    pagination: "Page {{ .PageNumber }} of  {{ .TotalPages }}th"
+
+copy:
+    success: "Copy success"
+    failed: "Copy failed"
+    copyCode: "Copy code"
+
+# offline
+offline:
+    title: "Network Offline!"
+    h1: "Network Offline!"
+    h3: "You seem to have a problem with your network, but it's okay, you can still access the pages you visited before"
+    h4: "Now please enjoy this lovely rabbit!"
+    return: "Click to return to home page"
+
+# github
+github:
+    goto: "Go to GitHub to check it out"
+    config: "Please check the \"github\" configuration"
+
+# twitter
+twitter:
+    title: "Twitter"
+    config: "Please check the \"twitter\" configuration"
+    link: "View"
+    like: "Like"
+    reply: "Reply"
+    forward: "Forward"
+    goto: "Go to Twitter to check it out"
+
+# i18nlist
+switchLang: "Switch language to {{ . }}"
+
+noscript: "Please enable JavaScript for a better experience"
+
+poweredBy: "Powered by {{ .Hugo }} {{ .Heart }} {{ .Theme }}"
+
+notFound: "Page not found, click back to home page"
+
+bionicReading: "Faster Reads"
+
+darkmode:
+    switch: "Switch to {{ . }}"
+    dark: "dark mode"
+    light: "light mode"

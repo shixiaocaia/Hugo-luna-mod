@@ -23,7 +23,7 @@
                     <span>RSS</span>
                 </a>
             {{- end -}}
-            {{- if .Site.Params.googleTranslate -}}
+            
                     {{$scratch := newScratch}}
 			{{ range (where .Site.Pages "Kind" "page" )}}
 				{{$scratch.Add "total" .WordCount}}
@@ -31,7 +31,7 @@
 			{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}&nbsp;&nbsp;共书写了<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字
 
 			{{- if .Site.Params.googleTranslate -}}<div id="google_translate_element" class=" rounded border dark:border-darkBorder overflow-hidden"></div>{{- end -}}
-            {{- end -}}
+            
         </div>
         {{- if .Site.Params.runTime.enabled -}}
             {{- partial "components/run-time" . }}
