@@ -197,7 +197,7 @@ params:
   # Comment system
   comments:
     enabled: true
-    provider: "custom" # custom | giscus
+    provider: "custom" # custom | 
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
       repoID: "R_kgDOHQOwYw"
@@ -443,10 +443,10 @@ languages:
       twitter: 
         enabled: true
         rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
+        id: "shixiaocaia"
         imageProcessing: true
       github:
-        id: "Ice-Hazymoon"
+        id: "shixiaocaia"
         minStars: 10
       license:
         enabled: true
@@ -458,7 +458,7 @@ languages:
         file: "README.md"
       comments:
         enabled: true
-        provider: "giscus"
+        provider: "custom"
         giscus:
           <<: *giscus
           lang: "zh-CN"

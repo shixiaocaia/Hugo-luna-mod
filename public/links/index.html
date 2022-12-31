@@ -340,57 +340,21 @@
 </p>
 </div>
     </div><div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
-    <script src="https://giscus.app/client.js"
-    data-repo="Ice-Hazymoon/hugo-theme-luna"
-    data-repo-id="R_kgDOHQOwYw"
-    data-category="Comments"
-    data-category-id="DIC_kwDOHQOwY84CP0Sy"
-    data-mapping="title"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="light"
-    data-lang="zh-CN"
-    data-loading="false"
-    crossorigin="anonymous"
-    data-swup-reload-script
-    async
->
-</script>
+    <div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
+    <div id="waline"></div>
 
-<script data-swup-reload-script>
-    (function () {
-        addEventListener("message", (e) => {
-            if (event.origin !== "https://giscus.app") return;
-            handler();
-        });
-        window.addEventListener("onThemeChange", handler);
-
-        function handler() {
-            if (document.documentElement.dataset.scheme === "light") {
-                setGiscusTheme('light');
-            } else {
-                setGiscusTheme('dark');
-            }
-        }
-    })();
-    
-    function setGiscusTheme(theme) {
-        let giscus = document.querySelector("iframe.giscus-frame");
-        if (giscus) {
-            giscus.contentWindow.postMessage(
-                {
-                    giscus: {
-                        setConfig: {
-                            theme: theme,
-                        },
-                    },
-                },
-                "https://giscus.app"
-            );
-        }
-    }
-</script>
+    <script data-swup-reload-script>
+        setTimeout(() => {
+            console.log(document.getElementById('waline'))
+            window.waline = Waline.init({
+                el: '#waline',
+                serverURL: 'https://waline.shixiaocaia.fun/',
+                emoji: [],
+                requiredMeta: ['name', 'email', 'url'],
+            });
+        }, 1000);
+    </script>
+</div>
 </div>
 
 
