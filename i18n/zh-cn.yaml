@@ -41,6 +41,8 @@ post:
     archiveCounter: '共 {{ . }} 篇文章'
     untitled: "无标题"
 
+
+
 # search
 search:
     loading: "初始化中，请稍后"
@@ -75,6 +77,7 @@ navbar:
     twitter: "推特"
     tags: "标签"
     categories: "分类"
+    album: "Album"
 
 # share
 share:

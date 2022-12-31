@@ -104,6 +104,13 @@ $manuMain:
     params:
       icon: eva eva-people
     url: /links/
+  - &mainMenuAlbum
+    name: Album
+    weight: 35
+    identifier: album
+    params:
+      icon: eva eva-film-outline
+    url: /album/   
   - &mainMenuArchives
     name: Archives
     weight: 40
@@ -140,6 +147,7 @@ menu:
     - *mainMenuHome
     - *mainMenuAbout
     - *mainMenuLinks
+    - *mainMenuAlbum
     - *mainMenuArchives
     - *mainMenuSearch
   # 副导航 / sub-navigation

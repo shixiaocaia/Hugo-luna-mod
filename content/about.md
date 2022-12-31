@@ -44,7 +44,7 @@ Some introductions...
   },
   text: `
   XR/8/电子产品
-  拜访朋友们/10/外链/https:&#47;&#47;shixiaocaia.fun&#47;friends/
+  拜访朋友们/10/外链/https:&#47;&#47;shixiaocaia.fun&#47;links/
   Docsify/10/外链/https:&#47;&#47;docsify.shixiaocaia.fun
   Harry Potter/&#47;/是爱好
   Love letter/&#47;/是爱好
@@ -60,27 +60,22 @@ Some introductions...
 </script>
 
 
+## 友链
 
-## This too shall pass.
+欢迎在下方评论添加友链，希望你也是一个{{< tag-outlined theme "热爱生活" >}}的人，也希望你是建站一段时间{{< tag-outlined theme "有一定内容" >}}的人，我会经常拜访的，如果才开始希望你能坚持下去而不是为了一时兴起~ 
 
-- 2022年10月28日
+长期不更新或者无法访问可能被移动到漂流状态~
 
-**多主动**，多去表达，多去主动选择，而不是憋气，气的还是自己。
+{{< accordion "我的友链" close >}}
 
-- 2022年10月30日
+- title: `Shixiaocaia `
 
-“**平静的低耗能状态是人生的常态**。”——*yan师兄*
+* url: `https://shixiaocaia.fun `
 
-- 2022年11月11日
+* avatar: `https://bu.dusays.com/2022/12/25/63a806f74cf5e.jpg`
 
-好好聆听，好好提问，少一些争论。
+* screenshot: `https://bu.dusays.com/2022/11/15/637399a253c91.png`
 
-“人生在世，不能决定的事情比自己能决定的事情要多得多。在自己的能力范围内做正确的决定，然后**足够努力，足够坦然**就可以了。”——*Xiaotao Nie*
+* description: `去做吧，反正都会后悔。`
 
-- 2022年11月27日
-
-愿中国青年都摆脱冷气，只是向上走，**不必听自暴自弃者流的话**。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。——*鲁迅*
-
-- 2022年12月16日
-
-对可控的事情保持谨慎，对不可控的事情保持乐观。
+{{< /accordion >}}

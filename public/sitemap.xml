@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://my-blog-ten-rouge.vercel.app/album/</loc>
+    <lastmod>2022-12-31T21:38:09+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://my-blog-ten-rouge.vercel.app/posts/</loc>
     <lastmod>2022-12-31T19:25:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -222,18 +227,13 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://my-blog-ten-rouge.vercel.app/github/</loc>
-    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://my-blog-ten-rouge.vercel.app/links/</loc>
     <lastmod>2022-12-31T20:32:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://my-blog-ten-rouge.vercel.app/about/</loc>
-    <lastmod>2022-12-31T20:53:07+08:00</lastmod>
+    <lastmod>2022-12-31T21:30:10+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
