@@ -16,7 +16,7 @@ layout: "links"
 {{< link url="https://dusays.com/" image="du.png" title="杜老师说" desc="师者，传道，授业，解惑！" >}}
 {{< link url="https://blog.lyunvy.top/" image="linklogo.webp" title="Lyunvy's Blog" desc="错把良辰作素日，不识美景怨天时，只道是寻常无趣。" >}}
 {{< link url="https://www.jdeal.cn" image="jh.jpg" title="Jdeal" desc="Life is like a Design." >}}
-{{< link url="https://weekdaycare.cn/" image="avatar2.svg" title="涛声依旧" desc="苦难不值得追求，磨练意志是因为苦难无法躲开。" >}}
+{{< link url="https://weekdaycare.cn/" image="avatar2.svg" title="星日语" desc="星语日点灯。" >}}
 {{< link url="https://irithys.com" image="avatar3.webp" title="山茶花舍" desc="吕楪想要写一些...." >}}
 {{< link url="https://blog.pengfeima.cn/" image="115222128.jpg" title="MerryJingle" desc="快乐的铃铛。" >}}
 {{< link url="https://bio-w.cn/" image="634d313602a1e.png" title="西瓜撞地球" desc="我在人间贩卖彩虹。" >}}
