@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="zh-cn" class="lang-zh-cn">
+    <head><meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="keywords" content="博客,Hugo,Hugo Theme,Luna," /><meta name="description" content="考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检" />
+<meta itemprop="description" content="考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<meta itemprop="name" content="Hexo-AirCloud主题装修指南 - Shixiaocaia" />
+<link href="https://my-blog-ten-rouge.vercel.app/index.xml" title="Hexo-AirCloud主题装修指南 - Shixiaocaia" type="application/rss+xml" rel="alternate" />
+<title>Hexo-AirCloud主题装修指南 - Shixiaocaia</title><link rel="stylesheet" href="/main.1bd13204e5d44d883a9e4be2f985a2861983ba4d66971132ccf3ab68f60773c4.css" integrity="sha256-G9EyBOXUTYg6nkvi+YWihhmDuk1mlxEyzPOraPYHc8Q=" /><meta property="og:site_name" content="Hexo-AirCloud主题装修指南 - Shixiaocaia" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Hexo-AirCloud主题装修指南" />
+<meta property="og:description" content="考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检" />
+<meta property="og:url" content="https://my-blog-ten-rouge.vercel.app/posts/53903/" /><meta property="article:publisher" content="https://my-blog-ten-rouge.vercel.app/posts/53903/" /><meta property="article:published_time" content="2022-11-17T12:09:15&#43;08:00" /><meta property="article:modified_time" content="2022-12-31T19:25:44&#43;08:00" /><meta name="theme-color" content="#dd6065" />
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-title" content="Hexo-AirCloud主题装修指南 - Shixiaocaia" />
+<meta name="apple-mobile-web-app-status-bar-style" content="white" />
+<meta name="twitter:card" content="summary_large_image" /><meta name="twitter:site" content="@Ice_Hazymoon" />
+    <meta name="twitter:creator" content="@Ice_Hazymoon" /><meta name="twitter:title" content="Hexo-AirCloud主题装修指南 - Shixiaocaia" />
+<meta name="twitter:description" content="考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检" />
+<meta name="twitter:url" content="https://my-blog-ten-rouge.vercel.app/posts/53903/" /><meta name="twitter:image" content="" /><link rel="shortcut icon" href="/icon.png" type="image/x-icon" /><link rel="manifest" href="/manifest.json" /><link href="/icon.png" rel="shortcut icon" />
+<link href="/icon.png" rel="Bookmark" />
+<link rel="apple-touch-icon" href="/icon.png" /><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Hexo-AirCloud主题装修指南",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https:\/\/my-blog-ten-rouge.vercel.app\/posts\/53903\/"
+  },"genre": "posts","keywords": "博客","wordcount": 1502 ,
+  "url": "https:\/\/my-blog-ten-rouge.vercel.app\/posts\/53903\/","datePublished": "2022-11-17T12:09:15\u002b08:00","dateModified": "2022-12-31T19:25:44\u002b08:00","author": {
+    "@type": "Person",
+    "name": "shixiaocaia"
+  },"description": ""
+}
+</script>
+
+<script src="https://unpkg.com/@waline/client@v2/dist/waline.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/@waline/client@v2/dist/waline.css"/>
+<script type="module" crossorigin src="https://mengrru.github.io/tags/dist/assets/index.63c40ee6.js"></script>
+    </head>
+    
+    <body class="dark:bg-darkBg dark:text-darkText">
+        <div class="relative mx-auto shadow-lg md:max-w-4xl xl:max-w-4xl 2xl:max-w-4xl">
+            <div class="main flex flex-col justify-between bg-white dark:bg-darkFg"><header class="relative"><nav id="nav" class="navbar top-0 z-10 flex items-center border-b px-5 py-6 dark:border-darkBorder md:px-10">
+        <div class="route-items flex w-full items-center justify-around"><a
+                    title="首页"
+                    data-active-link="/"
+                    href="/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-home flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">首页</span>
+                </a><a
+                    title="关于我"
+                    data-active-link="/about/"
+                    href="/about/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-heart flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">关于我</span>
+                </a><a
+                    title="朋友们"
+                    data-active-link="/links/"
+                    href="/links/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-people flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">朋友们</span>
+                </a><a
+                    title="Album"
+                    data-active-link="/album/"
+                    href="/album/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-film-outline flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">Album</span>
+                </a><a
+                    title="归档"
+                    data-active-link="/archives/"
+                    href="/archives/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-bar-chart flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">归档</span>
+                </a><a
+                    title="搜索"
+                    data-active-link="/search/"
+                    href="/search/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-search flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">搜索</span>
+                </a>
+        </div>
+    </nav><div class="dark-mode-switch absolute right-0 top-0 z-10 cursor-pointer pr-2 pt-2 text-xl leading-none">
+    <i class="eva eva-moon opacity-20 dark:opacity-70"></i>
+</div>
+</header>
+<main class="relative flex flex-grow " id="swup"><style>:root {
+        --font:Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    }</style><div class="type-posts layout- w-full"><div class="relative h-full">
+    <div class="relative h-full">
+        <div class="page-view-article flex h-full flex-col bg-white dark:bg-darkFg"><div class="relative"><div>
+    <div class="-mb-2 w-full p-6 pb-0 text-3xl md:px-10">
+        Hexo-AirCloud主题装修指南
+    </div>
+</div></div><div class="article-info border-b p-6 pb-3 text-sm dark:border-darkBorder md:px-10">
+    <div>
+        <div class="mb-3 mr-4 inline-flex items-center sm:rounded-full">
+            <i class="eva eva-clock-outline mr-1"></i>
+            <span>
+                <time
+                    title="发布于 2022年11月17日 12:09:15"datetime="2022-11-17T12:09:15+08:00">2022年11月17日</time
+                >
+            </span>
+        </div><span class="mb-3 mr-4 inline-flex items-center sm:rounded-full">
+                    <i class="eva eva-edit-2-outline mr-1"></i>
+                    <span>
+                        <time
+                            title="最后修改于：2022年12月31日 19:25:44"datetime="2022-12-31T19:25:44+08:00">2022年12月31日</time
+                        >
+                    </span>
+                </span></div><div class="mb-3 flex items-center">
+            <i class="eva eva-pricetags-outline mr-1"></i>
+            <span class="mr-3">标签</span><a href="/tags/%E5%8D%9A%E5%AE%A2" title="博客" class="group mr-2 flex items-center text-sm">
+                    <i class="mr-1 text-gray-400 group-hover:text-theme">#</i>
+                    <span class="text-gray-400 group-hover:text-theme">博客</span>
+                </a></div></div><aside
+            class="toc border-b border-gray-300 px-5 py-5 dark:border-darkBorder md:px-10 2xl:fixed 2xl:top-10 2xl:m-0 2xl:-ml-72 2xl:w-72 2xl:border-none 2xl:p-0 2xl:py-4 2xl:pr-4 "
+        >
+            <header>
+                <h1 class="mb-3 text-2xl font-bold 2xl:mb-4">文章目录</h1>
+            </header>
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#waline">Waline</a></li>
+    <li><a href="#插件">插件</a>
+      <ul>
+        <li><a href="#rss">RSS</a></li>
+        <li><a href="#permalink">permalink</a></li>
+        <li><a href="#deployer---upyun">deployer - upyun</a></li>
+        <li><a href="#wordcount">wordcount</a></li>
+      </ul>
+    </li>
+    <li><a href="#页脚">页脚</a></li>
+    <li><a href="#图片居中">图片居中</a></li>
+    <li><a href="#结尾">结尾</a></li>
+  </ul>
+</nav>
+        </aside><section class="article-content typo relative flex-grow px-6 py-5 md:px-10"><i title="更快的阅读" id="bionicReading" class="absolute right-0 top-0 cursor-pointer p-3"
+            ><svg class="w-4 h-4 fill-current text-gray-400" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10811" ><path d="M480 192c-19.2 0-32-12.8-32-32v-128c0-19.2 12.8-32 32-32s32 12.8 32 32v128c0 19.2-12.8 32-32 32zM160 1024c-6.4 0-19.2 0-25.6-6.4l-128-128c0-6.4-6.4-19.2-6.4-25.6s6.4-19.2 6.4-25.6l512-512c12.8-6.4 38.4-6.4 51.2 0l128 128c0 6.4 6.4 19.2 6.4 25.6s-6.4 19.2-6.4 25.6l-512 512c-6.4 6.4-19.2 6.4-25.6 6.4z m-83.2-160l83.2 83.2 467.2-467.2-83.2-83.2-467.2 467.2zM992 576h-128c-19.2 0-32-12.8-32-32s12.8-32 32-32h128c19.2 0 32 12.8 32 32s-12.8 32-32 32zM768 288c-6.4 0-19.2 0-25.6-6.4-12.8-12.8-12.8-32 0-44.8l96-96c12.8-12.8 32-12.8 44.8 0s12.8 32 0 44.8l-96 96c0 6.4-12.8 6.4-19.2 6.4zM256 288c-6.4 0-19.2 0-25.6-6.4L134.4 185.6c-6.4-12.8-6.4-38.4 0-51.2s32-12.8 44.8 0l96 96c12.8 12.8 12.8 32 0 44.8 0 12.8-12.8 12.8-19.2 12.8zM864 896c-6.4 0-19.2 0-25.6-6.4l-96-96c-12.8-12.8-12.8-32 0-44.8s32-12.8 44.8 0l96 96c12.8 12.8 12.8 32 0 44.8 0 6.4-12.8 6.4-19.2 6.4z" p-id="10812"></path><path d="M544 640c-6.4 0-19.2 0-25.6-6.4l-128-128c-6.4-12.8-6.4-38.4 0-51.2s32-12.8 44.8 0l128 128c12.8 12.8 12.8 38.4 6.4 51.2-6.4 6.4-19.2 6.4-25.6 6.4z" p-id="10813"></path></svg></i
+        ><blockquote>
+<p>考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检索到这篇文章。</p>
+<p>此外，Aircloud主题相比其他完善的主题，有太多需要更改的地方，去使用的人也不会太多，但是开源免费的东西，希望大家还是友好点不要一味向作者伸手，自己改也有乐趣！都去参与才会有一个良好的社区氛围。</p>
+</blockquote>
+
+
+<h2 class="group " id="waline"
+    >Waline<a href="#waline"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h2>
+
+<p>参考<a
+    class="link"
+    href="https://waline.js.org/"target="_blank" rel="noopener">waline官方文档</a
+>
+，在layout.ejs中引入以下代码：</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&lt;%if<span style="color:#ff79c6">(</span> <span style="color:#ff79c6">(</span>is_post<span style="color:#ff79c6">()</span>  <span style="color:#ff79c6">||</span> is_current<span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#39;about&#39;</span><span style="color:#ff79c6">))</span> <span style="color:#ff79c6">&amp;&amp;</span> config.comment <span style="color:#ff79c6">&amp;&amp;</span> config.comment.type <span style="color:#ff79c6">===</span> <span style="color:#f1fa8c">&#39;waline&#39;</span><span style="color:#ff79c6">){</span>%&gt;
+</span></span><span style="display:flex;"><span>    &lt;head&gt;
+</span></span><span style="display:flex;"><span>        &lt;!-- ... --&gt;
+</span></span><span style="display:flex;"><span>        &lt;link
+</span></span><span style="display:flex;"><span>          <span style="color:#8be9fd;font-style:italic">rel</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;stylesheet&#34;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#8be9fd;font-style:italic">href</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;https://unpkg.com/@waline/client@2.13.0/dist/waline.css&#34;</span>
+</span></span><span style="display:flex;"><span>        /&gt;
+</span></span><span style="display:flex;"><span>        &lt;!-- ... --&gt;
+</span></span><span style="display:flex;"><span>      &lt;/head&gt;
+</span></span><span style="display:flex;"><span>      &lt;body&gt;
+</span></span><span style="display:flex;"><span>        &lt;!-- ... --&gt;
+</span></span><span style="display:flex;"><span>        &lt;div <span style="color:#8be9fd;font-style:italic">id</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;waline&#34;</span>&gt;&lt;/div&gt;
+</span></span><span style="display:flex;"><span>        &lt;script <span style="color:#8be9fd;font-style:italic">type</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;module&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>          import <span style="color:#ff79c6">{</span> init <span style="color:#ff79c6">}</span> from <span style="color:#f1fa8c">&#39;https://unpkg.com/@waline/client@2.13.0/dist/waline.mjs&#39;</span>;
+</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>          init<span style="color:#ff79c6">({</span>
+</span></span><span style="display:flex;"><span>            el: <span style="color:#f1fa8c">&#39;#waline&#39;</span>,
+</span></span><span style="display:flex;"><span>            serverURL: <span style="color:#f1fa8c">&#39;https://waline.shixiaocaia.fun/&#39;</span>,
+</span></span><span style="display:flex;"><span>            emoji: <span style="color:#ff79c6">[</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f1fa8c">&#39;/img/blobs-png/&#39;</span>, <span style="color:#6272a4"># emoji文件看你个人的</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#ff79c6">]</span>,
+</span></span><span style="display:flex;"><span>          <span style="color:#ff79c6">})</span>;
+</span></span><span style="display:flex;"><span>        &lt;/script&gt;
+</span></span><span style="display:flex;"><span>      &lt;/body&gt;
+</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>&lt;% <span style="color:#ff79c6">}</span> %&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>个人添加了emoji blobs-png选项。</li>
+<li>serverURL 绑定个人的地址，注意vercel域名被污染了，要绑定自己的域名。</li>
+<li>这里将client的版本限定为2.13.0，是因为2.13.1版本存在相应的bug。</li>
+<li>再去<code>post.ejs</code>和<code>about.ejs</code>中添加。</li>
+</ul>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#ff79c6">&lt;</span>div id<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;waline_thread&#34;</span><span style="color:#ff79c6">&gt;&lt;</span>/div&gt;
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">&lt;</span>div id<span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;waline&#34;</span><span style="color:#ff79c6">&gt;&lt;</span>/div&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure
+    
+>
+    <picture class="noscript-hidden"><img
+            
+            data-src="https://bu.dusays.com/2022/12/24/63a6b5e2a725d.png"
+            src="/images/outload.svg"data-alt="TinySnap-2022-11-17-13.39.24"data-zoomable
+            data-lazyload data-lazyload-blur
+        />
+    </picture>
+    <noscript data-lazyload-noscript>
+        <a class="after:hidden" href="https://bu.dusays.com/2022/12/24/63a6b5e2a725d.png" target="_blank" rel="noopener noreferrer">
+            <picture><img
+                    src="https://bu.dusays.com/2022/12/24/63a6b5e2a725d.png"alt="TinySnap-2022-11-17-13.39.24"/>
+            </picture>
+        </a>
+    </noscript><figcaption>TinySnap-2022-11-17-13.39.24</figcaption></figure></p>
+
+
+<h2 class="group " id="插件"
+    >插件<a href="#%e6%8f%92%e4%bb%b6"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h2>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>npm i hexo-slug
+</span></span><span style="display:flex;"><span>npm i hexo-generator-feed
+</span></span><span style="display:flex;"><span>npm i hexo-deployer-upyun-purge
+</span></span><span style="display:flex;"><span>npm i hexo-wordcount
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+
+<h3 class="group " id="rss"
+    >RSS<a href="#rss"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h3>
+
+<ol>
+<li>
+<p>安装npm包<code>npm i hexo-generator-feed。</code></p>
+</li>
+<li>
+<p>在config中添加</p>
+</li>
+</ol>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>feed:
+</span></span><span style="display:flex;"><span>  type: atom
+</span></span><span style="display:flex;"><span>  path: atom.xml
+</span></span><span style="display:flex;"><span>  limit: <span style="color:#8be9fd;font-style:italic">false</span>
+</span></span><span style="display:flex;"><span>  content: <span style="color:#8be9fd;font-style:italic">true</span>
+</span></span><span style="display:flex;"><span>  icon: https://fastly.jsdelivr.net/gh/cdn-x/xaoxuu/avatar/rect-256@2x.png
+</span></span><span style="display:flex;"><span>  autodiscovery: <span style="color:#8be9fd;font-style:italic">true</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>在合适的位置添加RSS标志，🔗为你的域名+atom.xml，例如<code>https://shixiaocaia.fun/atom.xml</code>。</li>
+</ol>
+
+
+<h3 class="group " id="permalink"
+    >permalink<a href="#permalink"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h3>
+
+<p>安装npm包<code>npm i hexo-slug</code>。</p>
+<p>修改config文件中<code>permalink: posts/:slug/</code>。</p>
+<p>有利于简化网页链接信息，例如，<code>https://shixiaocaia.fun/posts/36833/</code>，每次deploy时候，会自动生成一个slug。</p>
+
+
+<h3 class="group " id="deployer---upyun"
+    >deployer - upyun<a href="#deployer---upyun"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h3>
+
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>deploy:
+</span></span><span style="display:flex;"><span>  - type: upyun
+</span></span><span style="display:flex;"><span>    serviceName: blogcjm-upyun
+</span></span><span style="display:flex;"><span>    operatorName: shixiaocaia
+</span></span><span style="display:flex;"><span>    operatorPassword: XXXXXXXXXXXXXXXX
+</span></span><span style="display:flex;"><span>    path: /
+</span></span><span style="display:flex;"><span>    cacheUrl: https://shixiaocaia.fun  
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>白嫖upyun联盟的云存储、CDN啥的不香吗！而且之前有问题，询问他们，态度超级好！（尽管我是白嫖用户</p>
+<p>甚至上次我问能不能去掉upyun的页脚的图标（upyun联盟的要求页脚加入链接），因为对不齐很不美观，客服也爽快的说可以！</p>
+
+
+<h3 class="group " id="wordcount"
+    >wordcount<a href="#wordcount"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h3>
+
+<p>见<a
+    class="link"
+    href="https://github.com/willin/hexo-wordcount"target="_blank" rel="noopener">源文件</a
+>
+。</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&lt;span <span style="color:#8be9fd;font-style:italic">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;post-count&#34;</span>&gt;&lt;%<span style="color:#ff79c6">=</span> totalcount<span style="color:#ff79c6">(</span>site<span style="color:#ff79c6">)</span> %&gt;&lt;/span&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+
+<h2 class="group " id="页脚"
+    >页脚<a href="#%e9%a1%b5%e8%84%9a"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h2>
+
+<ul>
+<li>
+<p>iconfont等图标，可以通过<a
+    class="link"
+    href="https://www.iconfont.cn/"target="_blank" rel="noopener">阿里巴巴矢量图库</a
+>
+获取，非商用可以免费使用。</p>
+<ul>
+<li>
+<p>在图库中下单中后，再到<code>head.ejs</code>中添加你自己的<code>  &lt;link href=&quot;//at.alicdn.com/t/c/font_3734178_jokajfqlisd.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;</code>即可。</p>
+</li>
+<li>
+<p>然后在<code>footer.ejs</code>中模仿现有的图标，改成自己想要的iconfont，比如我加了RSS的，Docsify的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>站点的信息可以直接抄用，之前也说过了，这里就不写了。</p>
+</li>
+<li>
+<p>访客信息，使用的是<a
+    class="link"
+    href="https://dusays.com/476/"target="_blank" rel="noopener">杜老师自建国内不蒜子统计平台</a
+>
+，快去冲！</p>
+</li>
+<li>
+<p>字数统计，使用hexo-wordcount。</p>
+</li>
+</ul>
+<p>我使用的页脚信息</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>&lt;span <span style="color:#8be9fd;font-style:italic">id</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;copyright&#34;</span>&gt;&lt;/span&gt; &lt;span <span style="color:#8be9fd;font-style:italic">id</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;days&#34;</span>&gt;&lt;/span&gt; , 嘟嘟了&lt;span <span style="color:#8be9fd;font-style:italic">class</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;post-count&#34;</span>&gt;&lt;%<span style="color:#ff79c6">=</span> totalcount<span style="color:#ff79c6">(</span>site<span style="color:#ff79c6">)</span> %&gt;&lt;/span&gt;字 , 有了&lt;span <span style="color:#8be9fd;font-style:italic">id</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;busuanzi_value_site_pv&#34;</span>&gt;&lt;/span&gt;次驻足。
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>&lt;script&gt;
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">function</span> createtime<span style="color:#ff79c6">()</span> <span style="color:#ff79c6">{</span>
+</span></span><span style="display:flex;"><span>        var <span style="color:#8be9fd;font-style:italic">s1</span> <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#39;2022-06-03&#39;</span>;//设置为建站时间
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">s1</span> <span style="color:#ff79c6">=</span> new Date<span style="color:#ff79c6">(</span>s1.replace<span style="color:#ff79c6">(</span>/-/g, <span style="color:#f1fa8c">&#34;/&#34;</span><span style="color:#ff79c6">))</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#8be9fd;font-style:italic">s2</span> <span style="color:#ff79c6">=</span> new Date<span style="color:#ff79c6">()</span>;
+</span></span><span style="display:flex;"><span>        var <span style="color:#8be9fd;font-style:italic">year</span> <span style="color:#ff79c6">=</span> s2.getFullYear<span style="color:#ff79c6">()</span>;
+</span></span><span style="display:flex;"><span>        var <span style="color:#8be9fd;font-style:italic">days</span> <span style="color:#ff79c6">=</span> s2.getTime<span style="color:#ff79c6">()</span> - s1.getTime<span style="color:#ff79c6">()</span>+250;
+</span></span><span style="display:flex;"><span>        var <span style="color:#8be9fd;font-style:italic">number_of_days</span> <span style="color:#ff79c6">=</span> parseInt<span style="color:#ff79c6">(</span>days / <span style="color:#ff79c6">(</span><span style="color:#bd93f9">1000</span> * <span style="color:#bd93f9">60</span> * <span style="color:#bd93f9">60</span> * 24<span style="color:#ff79c6">))</span>;
+</span></span><span style="display:flex;"><span>        document.getElementById<span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;days&#34;</span><span style="color:#ff79c6">)</span>.innerHTML <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;在宇宙中漂流了 &#34;</span> + number_of_days + <span style="color:#f1fa8c">&#34; 天 &#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">if</span><span style="color:#ff79c6">(</span><span style="color:#8be9fd;font-style:italic">year</span> <span style="color:#ff79c6">==</span> 2022<span style="color:#ff79c6">){</span>
+</span></span><span style="display:flex;"><span>           document.getElementById<span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;copyright&#34;</span><span style="color:#ff79c6">)</span>.innerHTML <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;© &#34;</span> + <span style="color:#f1fa8c">&#34;2022&#34;</span>;
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">}</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">else</span><span style="color:#ff79c6">{</span>
+</span></span><span style="display:flex;"><span>           document.getElementById<span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;copyright&#34;</span><span style="color:#ff79c6">)</span>.innerHTML <span style="color:#ff79c6">=</span> <span style="color:#f1fa8c">&#34;© &#34;</span> + <span style="color:#f1fa8c">&#34;2022 - &#34;</span> + year;
+</span></span><span style="display:flex;"><span>        <span style="color:#ff79c6">}</span>
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>    <span style="color:#ff79c6">}</span>;
+</span></span><span style="display:flex;"><span>setInterval<span style="color:#ff79c6">(</span><span style="color:#f1fa8c">&#34;createtime()&#34;</span>,250<span style="color:#ff79c6">)</span>;
+</span></span><span style="display:flex;"><span>&lt;/script&gt;
+</span></span><span style="display:flex;"><span>&lt;script async <span style="color:#8be9fd;font-style:italic">src</span><span style="color:#ff79c6">=</span><span style="color:#f1fa8c">&#34;https://npm.elemecdn.com/penndu@1.0.0/bsz.js&#34;</span>&gt;&lt;/script&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><figure
+    
+>
+    <picture class="noscript-hidden"><img
+            
+            data-src="https://bu.dusays.com/2022/12/24/63a6b5e6eb871.png"
+            src="/images/outload.svg"data-alt="TinySnap-2022-11-19-20.21.10"data-zoomable
+            data-lazyload data-lazyload-blur
+        />
+    </picture>
+    <noscript data-lazyload-noscript>
+        <a class="after:hidden" href="https://bu.dusays.com/2022/12/24/63a6b5e6eb871.png" target="_blank" rel="noopener noreferrer">
+            <picture><img
+                    src="https://bu.dusays.com/2022/12/24/63a6b5e6eb871.png"alt="TinySnap-2022-11-19-20.21.10"/>
+            </picture>
+        </a>
+    </noscript><figcaption>TinySnap-2022-11-19-20.21.10</figcaption></figure></p>
+
+
+<h2 class="group " id="图片居中"
+    >图片居中<a href="#%e5%9b%be%e7%89%87%e5%b1%85%e4%b8%ad"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h2>
+
+<p>原来的图片显示是偏左的，当你的图片过小时，显得很奇怪。</p>
+<p>修改<code>aircloud.css</code>中的</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>.post-content p img <span style="color:#ff79c6">{</span>
+</span></span><span style="display:flex;"><span>  max-width: 80%;
+</span></span><span style="display:flex;"><span>  cursor: pointer;
+</span></span><span style="display:flex;"><span>  display: block;
+</span></span><span style="display:flex;"><span>  margin: <span style="color:#bd93f9">0</span> auto;  //修改
+</span></span><span style="display:flex;"><span><span style="color:#ff79c6">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><blockquote>
+<p>试着F12控制台找相关部分，再去VS检索相应的部分，是很有用的方法！</p>
+</blockquote>
+
+
+<h2 class="group " id="结尾"
+    >结尾<a href="#%e7%bb%93%e5%b0%be"
+        ><i class="eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100"></i></a
+></h2>
+
+<blockquote>
+<p>当我刚换了aircloud后，stellar引来一大波更新，社区十分活跃，很羡慕了。</p>
+<p>没准不久就换回去了。</p>
+</blockquote>
+</section><div class="px-6 pb-5 pt-4 text-center text-xl text-gray-500 md:px-10 md:pb-10 md:pt-14 flex items-center justify-center"></div>
+<div class="border-b dark:border-darkBorder"></div><div class="flex justify-between px-2 py-4 text-xl md:px-6 md:text-2xl">
+    <div>
+        <a
+            href="/posts/36833/"
+            title="Weekly |好好生活"
+            class="invisible flex cursor-pointer items-center text-gray-500 transition duration-300 ease-[ease] hover:text-theme dark:text-darkTextPlaceholder dark:hover:text-darkText"style="visibility: visible;">
+            <span class="flex items-center text-5xl opacity-70 dark:bg-opacity-100">
+                <i class="eva eva-chevron-left-outline"></i>
+            </span>
+            <span>上一篇</span>
+        </a>
+    </div><div class="hidden items-center text-xs xl:flex">
+        除特殊声明外，本博客一律使用以下协议进行授权 「
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener noreferrer" class="text-theme">署名 - 非商业性使用 - 禁止演绎 4.0</a>
+        」
+    </div>
+    <div class="flex items-center text-sm xl:hidden">
+        <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener noreferrer" class="text-theme">
+            <img src="/Cc-by-nc-nd.svg" alt="署名 - 非商业性使用 - 禁止演绎 4.0" title="署名 - 非商业性使用 - 禁止演绎 4.0" class="w-24" />
+        </a>
+    </div>
+
+    <a
+        href="/posts/%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E7%AC%AC23%E5%B9%B4/"
+        title="来到这个世界的第23年"
+        class="invisible flex cursor-pointer items-center text-gray-500 transition duration-300 ease-[ease] hover:text-theme dark:text-darkTextPlaceholder dark:hover:text-darkText"style="visibility: visible;">
+        <span>下一篇</span>
+        <span class="flex items-center text-5xl opacity-70 dark:bg-opacity-100">
+            <i class="eva eva-chevron-right-outline"></i>
+        </span>
+    </a>
+</div>
+<div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
+    <div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
+    <div id="waline"></div>
+
+    <script data-swup-reload-script>
+        setTimeout(() => {
+            console.log(document.getElementById('waline'))
+            window.waline = Waline.init({
+                el: '#waline',
+                serverURL: 'https://waline.shixiaocaia.fun/',
+                emoji: ['/img/blobs-png/',],
+                requiredMeta: ['name', 'email', 'url'],
+            });
+        }, 1000);
+    </script>
+</div>
+</div>
+
+
+
+        </div>
+    </div>
+</div>
+</div>
+                </main><footer>
+    <div
+        class="com-footer flex flex-col items-center border-t py-4 px-4 text-sm leading-none text-gray-600 dark:border-darkBorder dark:text-darkTextPlaceholder md:flex-row md:justify-between"
+    >
+        <div class="mb-2 flex items-center justify-between text-center md:mb-0">
+            <span class="">© 2022 - 2022</span>
+            <span class="mx-1.5 opacity-50"> | </span>由 <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> <span class="text-xs opacity-70">❤</span> <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://github.com/Ice-Hazymoon/hugo-theme-luna" target="_blank" rel="noopener noreferrer">Luna</a> 驱动</div>
+
+        <div class="flex items-center"><span class="noscript-hidden mx-1.5 hidden opacity-50 md:block"> | </span><a data-no-swup href="https://my-blog-ten-rouge.vercel.app/index.xml" target="_blank" class="mr-1.5 hover:text-theme">
+                    <span class=" md:hidden lg:inline"><svg t="1650887361919" class="mr-0.5 w-96 w-3 fill-current text-inherit inline-block align-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3091"><path d="M320.16155 831.918c0 70.738-57.344 128.082-128.082 128.082S63.99955 902.656 63.99955 831.918s57.344-128.082 128.082-128.082 128.08 57.346 128.08 128.082z m351.32 94.5c-16.708-309.2-264.37-557.174-573.9-573.9C79.31155 351.53 63.99955 366.21 63.99955 384.506v96.138c0 16.83 12.98 30.944 29.774 32.036 223.664 14.568 402.946 193.404 417.544 417.544 1.094 16.794 15.208 29.774 32.036 29.774h96.138c18.298 0.002 32.978-15.31 31.99-33.58z m288.498 0.576C943.19155 459.354 566.92955 80.89 97.00555 64.02 78.94555 63.372 63.99955 77.962 63.99955 96.032v96.136c0 17.25 13.67 31.29 30.906 31.998 382.358 15.678 689.254 322.632 704.93 704.93 0.706 17.236 14.746 30.906 31.998 30.906h96.136c18.068-0.002 32.658-14.948 32.01-33.008z" p-id="3092"></path></svg></span>
+                    <span>RSS</span>
+                </a>
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+				
+			
+			&nbsp;&nbsp;共书写了<font color="#dd6065">&nbsp;37.4k&nbsp;</font>字</div><div id="run-time" class="mt-2 flex-grow text-right md:mt-0">
+    <span>🕓 Run Time:  </span><b id="run-time-d">0</b>
+    <span class="text-xs">Days</span>
+</div>
+</div>
+
+    <script type="text/javascript">
+window.__theme = {
+    cdn: '',
+    pjax: true ,
+    isServer: false ,
+    $version:"",
+    lang: 'zh-cn',
+    imageZoom: true ,
+    lazyload: true ,
+    bionicReading: {
+        enabled: true ,
+        skipLinks: false ,
+        autoBionic: false ,
+        excludeWords:[],
+        excludeClasses:["github"],
+        excludeNodeNames:[],
+    },
+    katex: true ,
+    search: true ,
+    backtop: true ,
+    pangu: true ,
+    autoDarkMode: false ,
+    googleAnalytics:false,
+    hugoEncrypt: {
+        wrongPasswordText: '密码错误',
+        userStorage:window['sessionStorage'],
+    },
+    console: {
+        enabled: true ,
+        leftColor: '#dd6065',
+        rightColor: '#feb462',
+        leftText: 'Hugo Theme Luna',
+        rightText: 'Powered by Hugo ❤ Luna',
+    },
+    assets: {
+        error_svg: "\/images\/error.svg",
+        search_svg: "\/images\/search.svg",
+    },
+    i18n: {
+        copy: {
+            success: "复制成功",
+            failed: "复制失败，请手动复制",
+            copyCode: "复制代码",
+        },
+        search: {
+            untitled: "无标题",
+            loadFailure: "初始化搜索引擎失败",
+            input: "请输入内容...",
+        },
+        darkMode: {
+            dark: "切换到夜间模式",
+            light: "切换到日间模式"
+        }
+    },creatTime: "2022\/6\/03"}
+</script>
+<script type="text/javascript" src="/ts/main.3a087e4b73f181d8f266b222d2907cc17e5d415bab727449b884032252d4ed69.js" defer integrity="sha256-Ogh&#43;S3PxgdjyZrIi0pB8wX5dQVurcnRJuIQDIlLU7Wk="></script><script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+            navigator.serviceWorker.register('\/sw.js');
+        });
+    }
+</script>
+
+
+
+
+
+<script>
+    
+    
+</script>
+
+<script data-swup-reload-script>
+    
+    
+</script>
+</footer>
+
+
+</div>
+        </div><a
+        href="#nav"
+        title="返回顶部"
+        id="back-top"
+        class="fixed right-6 bottom-9 z-10 translate-y-3 scale-90 cursor-pointer rounded-full bg-white opacity-0 transition duration-300 ease-[ease] dark:bg-darkBgAccent sm:scale-100"
+    >
+        <div class="relative">
+            <div class="absolute left-0 top-0 flex h-full w-full items-center justify-center text-xl">
+                <i class="eva eva-arrow-upward-outline"></i>
+            </div>
+            <svg id="svg" width="54" height="54" viewBox="0 0 54 54" preserveAspectRatio="xMinYMin meet">
+                <circle
+                    transform="rotate(-90, 27 , 27)"
+                    style="stroke-dasharray: 157, 157; stroke-dashoffset: 157;"
+                    cx="27"
+                    cy="27"
+                    r="25"
+                    fill="none"
+                    stroke-width="4"
+                    stroke-linecap="round"
+                    stroke="var(--theme)"
+                />
+            </svg>
+        </div>
+    </a><noscript>
+    <style>
+        .dark-mode-switch,
+        #run-time,
+        #bionicReading,
+        .noscript-hidden,
+        [data-clipboard-text],
+        [data-lazyload] {
+            display: none;
+        }
+        #back-top {
+            opacity: 1;
+        }
+        .noscript-show {
+            display: initial;
+        }
+    </style>
+</noscript>
+</body>
+</html>
