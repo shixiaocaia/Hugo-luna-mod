@@ -1,0 +1,282 @@
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+>
+
+    <channel>
+        <title>Hugo Theme Luna</title>
+        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://hugo-theme-luna.imiku.me/index.xml%7d" rel="self" type="application/rss+xml" />
+        <link>https://hugo-theme-luna.imiku.me/</link>
+        <managingEditor>Ice-Hazymoon</managingEditor>
+        <description>A simple, performance-first, SEO-friendly Hugo theme</description>
+        <lastBuildDate>Fri, 15 Apr 2022 02:49:13 +0200</lastBuildDate>
+        <language>en-us</language>
+        <generator>Hugo -- gohugo.io</generator><item>
+            <title>中文排版测试</title>
+            <link>https://hugo-theme-luna.imiku.me/2022/04/15/typography.html/</link>
+            <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
+            <guid>https://hugo-theme-luna.imiku.me/2022/04/15/typography.html/</guid><description>&lt;h2 class=&#34;group &#34; id=&#34;中文文章排版实例论语学而篇第一&#34;
+    &gt;中文文章排版实例：论语学而篇第一&lt;a href=&#34;#%e4%b8%ad%e6%96%87%e6%96%87%e7%ab%a0%e6%8e%92%e7%89%88%e5%ae%9e%e4%be%8b%e8%ae%ba%e8%af%ad%e5%ad%a6%e8%80%8c%e7%af%87%e7%ac%ac%e4%b8%80&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;作者：&lt;/strong&gt; 孔子（ 前551年9月28日－前479年4月11日 ）&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;本篇引语&#34;
+    &gt;本篇引语&lt;a href=&#34;#%e6%9c%ac%e7%af%87%e5%bc%95%e8%af%ad&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;《学而》是《论语》第一篇的篇名。 &lt;strong&gt;《论语》&lt;/strong&gt; 中各篇一般都是以第一章的前二三个字作为该&lt;del&gt;篇的篇名&lt;/del&gt;。《学而》一篇包括16章，内容涉及诸多方面。其中重点是「吾日三省吾身」；「节用而爱人，使民以时」；「礼之用，和为贵」以及仁、孝、信等道德范畴。&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;原文&#34;
+    &gt;原文&lt;a href=&#34;#%e5%8e%9f%e6%96%87&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;子曰：&lt;em&gt;「学而时习之，不亦说乎？有朋自远方来，不亦乐乎？人不知，而不愠，不亦君子乎？」&lt;/em&gt;&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;译文&#34;
+    &gt;译文&lt;a href=&#34;#%e8%af%91%e6%96%87&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;孔子说：「学了又时常温习和练习，不是很愉快吗？有志同道合的人从远方来，&lt;code&gt;inline code&lt;/code&gt; 不是很令人高兴的吗？人家不了解我，我也不怨恨、恼怒，不也是一个有德的君子吗？」&lt;/p&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;评析&#34;
+    &gt;评析&lt;a href=&#34;#%e8%af%84%e6%9e%90&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;p&gt;宋代著名学者朱熹对此章评价极高，说它是 &lt;strong&gt;「入道之门，积德之基」&lt;/strong&gt; 。本章这三句话是人们非常熟悉的。历来的解释都是：学了以后，又时常温习和练习，不也高兴吗等等。三句话，一句一个意思，前后句子也没有什么连贯性。但也有人认为这样解释不符合原义，指出这里的「学」不是指学习，而是指学说或主张；&lt;del&gt;「时」不能解为时常，而是时代或社会的意思&lt;/del&gt;，「习」不是温习，而是使用，引申为采用。而且，这三句话不是孤立的，而是前后相互连贯的。这三句的意思是：自己的学说，要是被社会采用了，那就太高兴了；退一步说，要是没有被社会所采用，可是很多朋友赞同我的学说，纷纷到我这里来讨论问题，我也感到快乐；再退一步说，即使社会不采用，人们也不理解我，我也不怨恨，这样做，不也就是君子吗？（见&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://baike.baidu.com/item/%E9%BD%90%E9%B2%81%E5%AD%A6%E5%88%8A/10666044&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;《齐鲁学刊》&lt;/a
+&gt;
+1986年第6期文）这种解释可以&lt;code&gt;自圆其说&lt;/code&gt;，而且也有一定的道理，供读者在理解本章内容时参考。&lt;/p&gt;
+&lt;p&gt;此外，在对「&lt;a
+    class=&#34;link&#34;
+    href=&#34;https://baike.baidu.com/item/%E4%BA%BA%E4%B8%8D%E7%9F%A5%E8%80%8C%E4%B8%8D%E6%84%A0%EF%BC%8C%E4%B8%8D%E4%BA%A6%E5%90%9B%E5%AD%90%E4%B9%8E/2867323&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;人不知，而不愠&lt;/a
+&gt;
+」一句的解释中，也有人认为，「人不知」的后面没有宾语，人家不知道什么呢？当时因为孔子有说话的特定环境，他不需要说出知道什么，别人就可以理解了，却给后人留下一个谜。有人说，这一句是接上一句说的，从远方来的朋友向我求教，我告诉他，他还不懂，我却不怨恨。这样，「人不知」就是「人家不知道我所讲述的」了。这样的解释似乎有些牵强。&lt;/p&gt;
+&lt;p&gt;总之，本章提出以学习为乐事，做到人不知而不愠，反映出孔子学而不厌、诲人不倦、注重修养、严格要求自己的主张。这些思想主张在《论语》书中多处可见，有助于对第一章内容的深入了解。&lt;/p&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;表格&#34;
+    &gt;表格&lt;a href=&#34;#%e8%a1%a8%e6%a0%bc&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Wrestler&lt;/th&gt;
+&lt;th&gt;Origin&lt;/th&gt;
+&lt;th&gt;Finisher&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bret &amp;ldquo;The Hitman&amp;rdquo; Hart&lt;/td&gt;
+&lt;td&gt;Calgary, AB&lt;/td&gt;
+&lt;td&gt;Sharpshooter&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Stone Cold Steve Austin&lt;/td&gt;
+&lt;td&gt;Austin, TX&lt;/td&gt;
+&lt;td&gt;Stone Cold Stunner&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Randy Savage&lt;/td&gt;
+&lt;td&gt;Sarasota, FL&lt;/td&gt;
+&lt;td&gt;Elbow Drop&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Vader&lt;/td&gt;
+&lt;td&gt;Boulder, CO&lt;/td&gt;
+&lt;td&gt;Vader Bomb&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Razor Ramon&lt;/td&gt;
+&lt;td&gt;Chuluota, FL&lt;/td&gt;
+&lt;td&gt;Razor&amp;rsquo;s Edge&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;代码块&#34;
+    &gt;代码块&lt;a href=&#34;#%e4%bb%a3%e7%a0%81%e5%9d%97&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;199
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;200
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;201
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;202
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;203
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;204
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;205
+&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;206
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;207
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;208
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;209
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;210
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;211
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;212
+&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;213
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;214
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;background-color:#3d3f4a&#34;&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;215
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;216
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;217
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;218
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// GetTitleFunc returns a func that can be used to transform a string to
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// title case.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;//
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// The supported styles are
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;//
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// - &amp;#34;Go&amp;#34; (strings.Title)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// - &amp;#34;AP&amp;#34; (see https://www.apstylebook.com/)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// - &amp;#34;Chicago&amp;#34; (see https://www.chicagomanualofstyle.org/home.html)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;//
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;// If an unknown or empty style is provided, AP style is what you get.
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#6272a4&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;func&lt;/span&gt; &lt;span style=&#34;color:#50fa7b&#34;&gt;GetTitleFunc&lt;/span&gt;(style &lt;span style=&#34;color:#8be9fd&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;func&lt;/span&gt;(s &lt;span style=&#34;color:#8be9fd&#34;&gt;string&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd&#34;&gt;string&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;switch&lt;/span&gt; strings.&lt;span style=&#34;color:#50fa7b&#34;&gt;ToLower&lt;/span&gt;(style) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;go&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff79c6&#34;&gt;return&lt;/span&gt; strings.Title
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;case&lt;/span&gt; &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#34;chicago&amp;#34;&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff79c6&#34;&gt;return&lt;/span&gt; transform.&lt;span style=&#34;color:#50fa7b&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.ChicagoStyle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex; background-color:#3d3f4a&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#ff79c6&#34;&gt;default&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    &lt;span style=&#34;color:#ff79c6&#34;&gt;return&lt;/span&gt; transform.&lt;span style=&#34;color:#50fa7b&#34;&gt;NewTitleConverter&lt;/span&gt;(transform.APStyle)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  }
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h2 class=&#34;group &#34; id=&#34;列表&#34;
+    &gt;列表&lt;a href=&#34;#%e5%88%97%e8%a1%a8&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Nested lists are rarely a good idea.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;You might feel like you are being really &amp;ldquo;organized&amp;rdquo; or something but you are just creating a gross shape on the screen that is hard to read.&lt;/li&gt;
+&lt;li&gt;Nested navigation in UIs is a bad idea too, keep things as flat as possible.&lt;/li&gt;
+&lt;li&gt;Nesting tons of folders in your source code is also not helpful.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Since we need to have more items, here&amp;rsquo;s another one.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;I&amp;rsquo;m not sure if we&amp;rsquo;ll bother styling more than two levels deep.&lt;/li&gt;
+&lt;li&gt;Two is already too much, three is guaranteed to be a bad idea.&lt;/li&gt;
+&lt;li&gt;If you nest four levels deep you belong in prison.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Two items isn&amp;rsquo;t really a list, three is good though.&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;Again please don&amp;rsquo;t nest lists if you want people to actually read your content.&lt;/li&gt;
+&lt;li&gt;Nobody wants to look at this.&lt;/li&gt;
+&lt;li&gt;I&amp;rsquo;m upset that we even have to bother styling this.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.&lt;/br&gt;
+如果你希望成功，当以恒心为良友，以经验为参谋，以谨慎为兄弟，以希望为哨兵。&lt;/li&gt;
+&lt;li&gt;Sometimes one pays most for the things one gets for nothing.  &lt;/br&gt;
+有时候一个人为不花钱得到的东西付出的代价最高。&lt;/li&gt;
+&lt;li&gt;Only those who have the patience to do simple things perfectly ever acquire the skill to do difficult things easily.  &lt;/br&gt;
+只有有耐心圆满完成简单工作的人，才能够轻而易举的完成困难的事。&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;引用&#34;
+    &gt;引用&lt;a href=&#34;#%e5%bc%95%e7%94%a8&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;　　我想：我同赵贵翁有什么仇，同路上的人又有什么仇；只有廿年以前，把古久先生的陈年流水簿子⑶，踹了一脚，古久先生很不高兴。赵贵翁虽然不认识他，一定也听到风声，代抱不平；约定路上的人，同我作冤对。但是小孩子呢？那时候，他们还没有出世，何以今天也睁着怪眼睛，似乎怕我，似乎想害我。这真教我怕，教我纳罕而且伤心。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+
+&lt;h3 class=&#34;group &#34; id=&#34;套娃引用&#34;
+    &gt;套娃引用&lt;a href=&#34;#%e5%a5%97%e5%a8%83%e5%bc%95%e7%94%a8&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;呐喊&#34;
+    &gt;呐喊&lt;a href=&#34;#%e5%91%90%e5%96%8a&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;p&gt;题作呐喊，就是为革命者助战振威。呐喊中的小说，以振聋发聩的气势，揭示了中国的社会面貌，控诉了封建制度的罪恶，喊出了五四时期革命者的心声。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;我不见他，已是三十多年；今天见了，精神分外爽快。才知道以前的三十多年，全是发昏；然而须十分小心。不然，那赵家的狗，何以看我两眼呢？ —— 鲁迅&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;使劲套娃&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+
+&lt;h2 class=&#34;group &#34; id=&#34;数学公式&#34;
+    &gt;数学公式&lt;a href=&#34;#%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f&#34;
+        &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
+&gt;&lt;/h2&gt;
+
+&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;
+&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 1
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 2
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 3
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 4
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 5
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 6
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 7
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 8
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt; 9
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;10
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;11
+&lt;/span&gt;&lt;span style=&#34;white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f&#34;&gt;12
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-TeX&#34; data-lang=&#34;TeX&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;这是一条行内公式：&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\sqrt&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;  {p^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;m^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}}}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\gamma&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\sqrt&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;  {p^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;+&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;m^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}c^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}}}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;\gamma&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$$&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt; E_{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;mc^{&lt;/span&gt;&lt;span style=&#34;color:#bd93f9&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;} &lt;/span&gt;&lt;span style=&#34;color:#f1fa8c&#34;&gt;$$&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\\&lt;/span&gt;&lt;span style=&#34;color:#50fa7b&#34;&gt;[3 &amp;lt; 4\\]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\begin&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;align&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p(v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i=1|&lt;span style=&#34;color:#ff79c6&#34;&gt;\mathbf&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;&amp;amp;&lt;/span&gt; = &lt;span style=&#34;color:#ff79c6&#34;&gt;\sigma\left&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;\sum&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j w&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_{&lt;/span&gt;ij&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j + b&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i&lt;span style=&#34;color:#ff79c6&#34;&gt;\right&lt;/span&gt;) &lt;span style=&#34;color:#ff79c6&#34;&gt;\\&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    p(h&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j=1|&lt;span style=&#34;color:#ff79c6&#34;&gt;\mathbf&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;) &lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;&amp;amp;&lt;/span&gt; = &lt;span style=&#34;color:#ff79c6&#34;&gt;\sigma\left&lt;/span&gt;(&lt;span style=&#34;color:#ff79c6&#34;&gt;\sum&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i w&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_{&lt;/span&gt;ij&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;v&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;i + c&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;_&lt;/span&gt;j&lt;span style=&#34;color:#ff79c6&#34;&gt;\right&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#ff79c6&#34;&gt;\end&lt;/span&gt;&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;{&lt;/span&gt;align&lt;span style=&#34;color:#8be9fd;font-style:italic&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;这是一条行内公式：$ E={\sqrt  {p^{2}c^{2}+m^{2}c^{4}}}=\gamma mc^{2} $&lt;/p&gt;
+&lt;p&gt;$$ E_{0}=mc^{2} $$&lt;/p&gt;
+&lt;p&gt;\[3 &amp;lt; 4\]&lt;/p&gt;
+&lt;p&gt;\begin{align}
+\nonumber p(v_i=1|\mathbf{h}) &amp;amp; = \sigma\left(\sum_j w_{ij}h_j + b_i\right) \
+p(h_j=1|\mathbf{v}) &amp;amp; = \sigma\left(\sum_i w_{ij}v_i + c_j\right)
+\end{align}&lt;/p&gt;</description></item></channel>
+</rss>
