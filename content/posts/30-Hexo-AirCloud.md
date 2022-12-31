@@ -14,7 +14,7 @@ date: 2022-11-17 12:09:15
 
 参考[waline官方文档](https://waline.js.org/)，在layout.ejs中引入以下代码：
 
-```js
+```shell
 <%if( (is_post()  || is_current('about')) && config.comment && config.comment.type === 'waline'){%>
     <head>
         <!-- ... -->
