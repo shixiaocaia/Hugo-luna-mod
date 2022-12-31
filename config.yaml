@@ -1,7 +1,7 @@
-baseURL: https://hugo-theme-luna.imiku.me/
+baseURL: https://my-blog-ten-rouge.vercel.app/
 languageCode: en-us
 defaultContentLanguage: zh-cn
-title: "Hugo Theme Luna"
+title: "Shixiaocaia"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
@@ -31,11 +31,12 @@ paginate: 10
 permalinks:
   # 文章链接的格式
   # Format of posts links
-  posts: /:year/:month/:day/:slug.html # 2019/01/01/hello-world.html
+  posts: /posts/:slug
+  #posts: /:year/:month/:day/:slug.html # 2019/01/01/hello-world.html
   pages: /:slug.html # about.html
-
+  
 author:
-  name: Ice-Hazymoon
+  name: shixiaocaia
 
 frontmatter:
   lastmod:
@@ -124,13 +125,6 @@ $manuMain:
     params:
       icon: eva eva-folder
     url: /categories/
-  - &mainMenuTwitter
-    name: Twitter
-    weight: 70
-    identifier: twitter
-    params:
-      icon: eva eva-twitter
-    url: /twitter/
   - &mainMenuGitHub
     name: GitHub
     weight: 80
@@ -154,7 +148,6 @@ menu:
     - *mainMenuAbout
     - *mainMenuLinks
     - *mainMenuArchives
-    - *mainMenuTwitter
     - *mainMenuGitHub
     - *mainMenuSearch
   # 副导航 / sub-navigation
@@ -272,11 +265,11 @@ params:
     enabled: true
     # 网站创建时间
     # Site creation time
-    creatTime: 2016/12/12
+    creatTime: 2022/6/20
   
   #  网站创建年份
   # Site creation year
-  since: "2016"
+  since: "2022"
 
   # 显示文章过时提醒
   # show warning when outdated info detected
@@ -292,11 +285,11 @@ params:
 
   # 文章分享功能
   share:
-    twitter: true
-    facebook: true
-    weibo: true
-    copyLinkText: true
-    qrcode: true
+    twitter: false
+    facebook: false
+    weibo: false
+    copyLinkText: false
+    qrcode: false
   
   qrcodeAPI: "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
 
@@ -310,18 +303,18 @@ params:
 
   # 显示右上角 i18n 切换按钮
   # Display i18n toggle button
-  i18nlist: true
+  i18nlist: false
 
   # GitHub 页面设置
   # github page
   github:
-    id: "torvalds" # github user id
+    id: "shixiaocaia" # github user id
     minStars: 5 # 最小 star 项目 / min stars
 
   # Twitter 页面设置
   # tweet page
   twitter:
-    enabled: true
+    enabled: false
     rsshub: "https://rsshub.rssforever.com" # rsshub url, see https://github.com/DIYgod/RSSHub
     id: "GenshinImpact" # Twitter ID
     # 如果为 true，Hugo 将下载图片和视频并进行优化，如果你在中国大陆地区，请谨慎启用这个选项
