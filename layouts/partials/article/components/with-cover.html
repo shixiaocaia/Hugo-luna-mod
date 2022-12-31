@@ -1,0 +1,55 @@
+{{- $public_cdn := cond .Site.IsServer "" .Site.Params.publicCDN -}}
+{{- $lazyload_image := print $public_cdn ("images/outload.svg" | relURL) -}}
+{{- $Title := or $.Title (T "post.untitled") -}}
+
+{{- $processImage := "" -}}
+{{- $lazyload := .Site.Params.lazyload -}}
+{{- $featuredImageUrl := .Params.featured_image -}}
+{{- $featuredImageHeight := .Site.Params.featuredImageHeight -}}
+
+{{- if (urls.Parse ($featuredImageUrl | safeURL)).Scheme -}}
+    {{- $processImage = partial "helper/image-process" (dict "Image" $featuredImageUrl "Site" .Page.Site) -}}
+    {{- $featuredImageUrl = (replace $featuredImageUrl "{{timestamp}}" (delimit (shuffle (seq 1 9)) "")) | safeURL -}}
+{{- else -}}
+    {{- $featuredImage := .Resources.GetMatch .Params.featured_image -}}
+    {{- $processImage = partial "helper/image-process" (dict "Image" $featuredImage "Site" .Page.Site) -}}
+    {{- $featuredImageUrl = print $public_cdn $featuredImage.Permalink -}}
+{{- end -}}
+
+<div
+    style="{{- with $processImage.Colors -}}background-image: linear-gradient(180deg, {{- . -}});{{- end -}} {{- with $featuredImageHeight -}}padding-bottom: {{- . -}};{{- end -}}"
+    class="article-cover relative {{ if $featuredImageHeight }}h-0{{ . }}{{ end }} w-full"
+>
+    <picture class="noscript-hidden">
+        {{- if $processImage.Processed -}}
+            <source {{ if $lazyload }}data-{{ end }}srcset="{{- $processImage.SrcsetWebp -}}" type="image/webp" />
+        {{- end -}}
+        <img
+            {{ if $lazyload }}data-{{ end }}src="{{ $featuredImageUrl }}"
+            {{ if $lazyload }}src="{{ or $processImage.Placeholder $lazyload_image }}"{{ end }}
+            {{ with $processImage.Width }}width="{{ . }}"{{ end }}
+            {{ with $processImage.Height }}height="{{ . }}"{{ end }}
+            {{ if $lazyload }}data-{{ end }}{{- with $processImage.Srcset -}}srcset="{{ . }}"{{ end }}
+            {{ with $Title }}alt="{{ . }}"{{ end }}
+            class="{{ if $featuredImageHeight }}absolute{{ end }} left-0 top-0 h-full w-full object-cover object-center"
+            {{ if $lazyload }}data-lazyload data-lazyload-blur{{ end }}
+
+        />
+    </picture>
+    <noscript>
+        <picture>
+            {{- if $processImage.Processed -}}<source srcset="{{- $processImage.SrcsetWebp -}}" type="image/webp" />{{- end -}}
+            <img
+                src="{{ $featuredImageUrl }}"
+                {{ if $processImage.Processed }}srcset="{{ $processImage.Srcset }}"{{ end }}
+                {{ with $Title }}alt="{{ . }}"{{- end -}}
+                {{ if $processImage.Processed }}width="{{ $processImage.Width }}"{{ end }}
+                {{ if $processImage.Processed }}height="{{ $processImage.Height }}"{{ end }}
+                class="absolute left-0 top-0 h-full w-full object-cover object-center"
+            />
+        </picture>
+    </noscript>
+</div>
+<h1 class="article-title absolute bottom-0 left-0 w-full px-6 pb-8 pt-32 text-3xl text-white dark:text-darkText md:px-10 md:text-4xl">
+    {{ $Title }}
+</h1>

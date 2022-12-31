@@ -1,0 +1,62 @@
+{{- $pjax := .Site.Params.pjax -}}
+{{- $isServer := .Site.IsServer -}}
+{{- $version := getenv "HUGO_VERSION" -}}
+{{- $public_cdn := cond .Site.IsServer "" .Site.Params.publicCDN -}}<script type="text/javascript">
+window.__theme = {
+    cdn: '{{- $public_cdn -}}',
+    pjax: {{- $pjax -}},
+    isServer: {{- $isServer -}},
+    $version: {{- $version -}},
+    lang: '{{- .Language -}}',
+    imageZoom: {{- .Site.Params.imageZoom -}},
+    lazyload: {{- .Site.Params.lazyload -}},
+    bionicReading: {
+        enabled: {{- .Site.Params.bionicReading.enabled -}},
+        skipLinks: {{- .Site.Params.bionicReading.skipLinks -}},
+        autoBionic: {{- .Site.Params.bionicReading.autoBionic -}},
+        excludeWords: {{- .Site.Params.bionicReading.excludeWords -}},
+        excludeClasses: {{- .Site.Params.bionicReading.excludeClasses -}},
+        excludeNodeNames: {{- .Site.Params.bionicReading.excludeNodeNames -}},
+    },
+    katex: {{- .Site.Params.katex -}},
+    search: {{- .Site.Params.search -}},
+    backtop: {{- .Site.Params.backtop -}},
+    pangu: {{- .Site.Params.pangu -}},
+    autoDarkMode: {{- .Site.Params.autoDarkMode -}},
+    googleAnalytics: {{- if .Site.GoogleAnalytics -}}true{{- else -}}false{{- end -}},
+    hugoEncrypt: {
+        wrongPasswordText: '{{- i18n "encrypt.wrongPassword" -}}',
+        userStorage: {{- if .Site.Params.HugoEncrypt.Storage -}} window['{{- .Site.Params.HugoEncrypt.Storage -}}Storage'] {{- else -}} localStorage {{- end -}},
+    },
+    console: {
+        enabled: {{- .Site.Params.console.enabled -}},
+        leftColor: '{{- .Site.Params.console.leftColor -}}',
+        rightColor: '{{- .Site.Params.console.rightColor -}}',
+        leftText: '{{- .Site.Params.console.leftText -}}',
+        rightText: '{{- .Site.Params.console.rightText -}}',
+    },
+    assets: {
+        error_svg: "{{- "images/error.svg" | relURL -}}",
+        search_svg: "{{- "images/search.svg" | relURL -}}",
+    },
+    i18n: {
+        copy: {
+            success: "{{- T "copy.success" -}}",
+            failed: "{{- T "copy.failed" -}}",
+            copyCode: "{{- T "copy.copyCode" -}}",
+        },
+        search: {
+            untitled: "{{- T "post.untitled" -}}",
+            loadFailure: "{{- T "search.loadFailure" -}}",
+            input: "{{- T "search.input" -}}",
+        },
+        darkMode: {
+            dark: "{{- T "darkmode.switch" (T "darkmode.dark") -}}",
+            light: "{{- T "darkmode.switch" (T "darkmode.light") -}}"
+        }
+    },
+    {{- if .Site.Params.runTime.enabled -}}
+    creatTime: "{{- .Site.Params.runTime.creatTime -}}"
+    {{- end -}}
+}
+</script>

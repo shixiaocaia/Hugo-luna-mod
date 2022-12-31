@@ -1,0 +1,54 @@
+{{- $url := .Permalink | safeURL -}}
+{{- $text := (trim (replaceRE "\r?\n" "" (.Summary | plainify)) " ") | safeURL -}}
+{{- $config := .Site.Params.share -}}
+{{- if $config -}}
+    <div class="px-6 pb-5 pt-4 text-center text-xl text-gray-500 md:px-10 md:pb-10 md:pt-14 flex items-center justify-center">
+        {{- if (index $config "twitter") -}}
+            <a
+                class="mr-4 inline-flex h-5 w-5 items-center"
+                title="{{- T "share.twitter" -}}"
+                href="https://twitter.com/share?&text={{- $text -}}&url={{- $url -}}"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="eva eva-twitter hover:text-theme"></i
+            ></a>
+        {{- end -}}
+
+        {{- if (index $config "facebook") -}}
+            <a
+                class="mr-4 inline-flex h-5 w-5 items-center"
+                title="{{- T "share.facebook" -}}"
+                href="https://www.facebook.com/sharer.php?u={{- $url -}}"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="eva eva-facebook hover:text-theme"></i
+            ></a>
+        {{- end -}}
+
+        {{- if (index $config "weibo") -}}
+            <a
+                class="mr-4 inline-flex h-5 w-5 items-center"
+                title="{{- T "share.weibo" -}}"
+                href="https://service.weibo.com/share/share.php?url={{- $url -}}&title={{- .Title | safeURL -}}&sudaref={{- (urls.Parse $url).Host -}}"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+            {{- $.Site.Data.luna.icon.weibo | safeHTML -}}
+            </a>
+        {{- end -}}
+        {{- if (index $config "copyLinkText") -}}
+            <i class="eva eva-copy mr-4 cursor-pointer hover:text-theme" title="{{- T "share.copy" -}}" data-clipboard-text="{{- $url -}}"></i>
+        {{- end -}}
+
+        {{- if (index $config "qrcode") -}}
+            <div class="group h-5 w-5 relative hidden cursor-pointer sm:inline-block">
+                <i title="{{- T "share.qrcode" -}}" class="eva show-qrcode eva-smartphone hover:text-theme"></i>
+                <div
+                    class="qrcode-wrapper p-2 pointer-events-none absolute left-2/4 bottom-10 h-32 w-32 -translate-x-1/2 overflow-hidden rounded border border-gray-300 bg-white opacity-0 transition duration-300 ease-[ease] group-hover:opacity-100"
+                >
+                    <img class="h-full w-full" src="{{- .Site.Params.qrcodeAPI -}}{{- $url -}}" alt="{{- T "share.qrcode" -}}" />
+                </div>
+            </div>
+        {{- end -}}
+    </div>
+{{- end -}}
