@@ -1,7 +1,7 @@
 ---
-title: "中文排版测试"
+title: "测试文章"
 date: 2022-04-15T02:49:13+02:00
-slug: typography
+slug: 123456
 featured_image: cover.jpg
 tags:
   - 中文

@@ -6,13 +6,22 @@
     <description>Recent content in Posts on Shixiaocaia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 02:49:13 +0200</lastBuildDate><atom:link href="https://my-blog-ten-rouge.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 08:30:22 +0800</lastBuildDate><atom:link href="https://my-blog-ten-rouge.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>中文排版测试</title>
-      <link>https://my-blog-ten-rouge.vercel.app/posts/typography/</link>
+      <title>Weekly |Merry Christmas</title>
+      <link>https://my-blog-ten-rouge.vercel.app/posts/48627/</link>
+      <pubDate>Sat, 24 Dec 2022 08:30:22 +0800</pubDate>
+      
+      <guid>https://my-blog-ten-rouge.vercel.app/posts/48627/</guid>
+      <description>转眼回到家快两周了，所幸到现在还没阳，但感觉阳不阳是迟早的事。 在我走后，宿舍楼层封了，舍友和同组的朋友都阳了，接着实验室的师兄告诉我大家都阳</description>
+    </item>
+    
+    <item>
+      <title>测试文章</title>
+      <link>https://my-blog-ten-rouge.vercel.app/posts/123456/</link>
       <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
       
-      <guid>https://my-blog-ten-rouge.vercel.app/posts/typography/</guid>
+      <guid>https://my-blog-ten-rouge.vercel.app/posts/123456/</guid>
       <description>&lt;h2 class=&#34;group &#34; id=&#34;中文文章排版实例论语学而篇第一&#34;
     &gt;中文文章排版实例：论语学而篇第一&lt;a href=&#34;#%e4%b8%ad%e6%96%87%e6%96%87%e7%ab%a0%e6%8e%92%e7%89%88%e5%ae%9e%e4%be%8b%e8%ae%ba%e8%af%ad%e5%ad%a6%e8%80%8c%e7%af%87%e7%ac%ac%e4%b8%80&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
