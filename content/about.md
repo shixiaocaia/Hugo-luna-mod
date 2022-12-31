@@ -6,13 +6,9 @@ type: page
 comments: true
 ---
 
-# About me
+## About me
 
 Some introductions...
-
-![Random images from Unsplash](https://source.unsplash.com/random/1000x500)
-
-## More About Me
 
 这里是小菜的个人博客，用于记录每周与自己的对话，各类胡思乱想。
 
@@ -79,3 +75,5 @@ Some introductions...
 * description: `去做吧，反正都会后悔。`
 
 {{< /accordion >}}
+
+![](/img/BLOG/about.gif)
