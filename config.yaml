@@ -197,7 +197,7 @@ params:
   # Comment system
   comments:
     enabled: true
-    provider: "giscus" # custom | giscus
+    provider: "custom" # custom | giscus
     giscus: &giscus
       repo: "Ice-Hazymoon/hugo-theme-luna"
       repoID: "R_kgDOHQOwYw"
@@ -207,7 +207,7 @@ params:
       reactionsEnabled: 1
       emitMetadata: 0
       lazy: false
-      lang: "en"
+      lang: "en"   
 
   # Rss 配置
   # RSS configuration
@@ -455,7 +455,7 @@ languages:
         url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
       announcement:
         enabled: true
-        file: "README.zh.md"
+        file: "README.md"
       comments:
         enabled: true
         provider: "giscus"

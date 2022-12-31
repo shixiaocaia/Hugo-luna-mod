@@ -1,0 +1,16 @@
+img[data-lazyload] {
+    &[data-lazyload-blur] {
+        @apply opacity-50 transition duration-500 ease-in-out;
+        &.lazy-loading {
+            // filter: blur(10px);
+            opacity: 0.5;
+        }
+        &.lazy-loaded {
+            // filter: blur(0px);
+            opacity: 1;
+        }
+    }
+    &.lazy-error, &.lazy-loaded {
+        @apply opacity-100 bg-none #{!important};
+    }
+}

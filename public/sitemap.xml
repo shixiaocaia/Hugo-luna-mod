@@ -27,7 +27,32 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://my-blog-ten-rouge.vercel.app/archives/</loc>
+    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://my-blog-ten-rouge.vercel.app/github/</loc>
+    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://my-blog-ten-rouge.vercel.app/links/</loc>
+    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://my-blog-ten-rouge.vercel.app/about/</loc>
+    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://my-blog-ten-rouge.vercel.app/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://my-blog-ten-rouge.vercel.app/search/</loc>
+    <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

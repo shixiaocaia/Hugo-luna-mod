@@ -1,4 +1,16 @@
 your comment code
-<script data-swup-reload-script>
-    // reload comment component
-</script>
+<div class="border-t py-6 px-6 md:px-8 dark:border-darkBorder">
+    <div id="waline"></div>
+
+    <script data-swup-reload-script>
+        setTimeout(() => {
+            console.log(document.getElementById('waline'))
+            window.waline = Waline.init({
+                el: '#waline',
+                serverURL: 'https://waline.shixiaocaia.fun/',
+                emoji: [],
+                requiredMeta: ['name', 'email', 'url'],
+            });
+        }, 1000);
+    </script>
+</div>
