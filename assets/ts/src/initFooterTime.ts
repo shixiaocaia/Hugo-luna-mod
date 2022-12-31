@@ -17,12 +17,6 @@ export default function() {
         const second = 60 * parseFloat('0.' + minute.toString().replace(/\d+\.(\d*)/, '$1'));
 
         const dayEL = document.getElementById('run-time-d') as HTMLElement;
-        const hourEL = document.getElementById('run-time-h') as HTMLElement;
-        const minuteEL = document.getElementById('run-time-m') as HTMLElement;
-        const secondEL = document.getElementById('run-time-s') as HTMLElement;
         dayEL.innerText = (~~(day)).toString();
-        hourEL.innerText = (~~(hour)).toString();
-        minuteEL.innerText = (~~(minute)).toString();
-        secondEL.innerText = (~~(second)).toString();
     }, 1000);
 }
