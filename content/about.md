@@ -8,8 +8,6 @@ comments: true
 
 ## About me
 
-Some introductions...
-
 这里是小菜的个人博客，用于记录每周与自己的对话，各类胡思乱想。
 
 目前通信学硕在读，希望顺利毕业。
