@@ -30,7 +30,7 @@
 
 {{- $favicon_icon := resources.Get "icon.png" -}}
 {{- $favicon_icon = $favicon_icon.Resize "48x48 ico icon" -}}
-{{- $favicon_icon = slice $favicon_icon | resources.Concat "favicon.ico" -}}
+{{- $favicon_icon = slice $favicon_icon | resources.Concat "icon.png" -}}
 {{- $favicon_icon = print $public_cdn $favicon_icon.RelPermalink -}}
 
 <link rel="shortcut icon" href="{{- $favicon_icon -}}" type="image/x-icon" />
