@@ -9,17 +9,17 @@
 
     <channel>
         <title>Shixiaocaia</title>
-        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://my-blog-ten-rouge.vercel.app/index.xml%7d" rel="self" type="application/rss+xml" />
-        <link>https://my-blog-ten-rouge.vercel.app/</link>
+        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://shixiaocaia.fun/index.xml%7d" rel="self" type="application/rss+xml" />
+        <link>https://shixiaocaia.fun/</link>
         <managingEditor>shixiaocaia</managingEditor>
         <description>A simple, performance-first, SEO-friendly Hugo theme</description>
         <lastBuildDate>Sat, 24 Dec 2022 08:30:22 +0800</lastBuildDate>
         <language>en-us</language>
         <generator>Hugo -- gohugo.io</generator><item>
             <title>Weekly |Merry Christmas</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/48627/</link>
+            <link>https://shixiaocaia.fun/posts/48627/</link>
             <pubDate>Sat, 24 Dec 2022 08:30:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/48627/</guid><description>&lt;p&gt;转眼回到家快两周了，所幸到现在还没阳，但感觉阳不阳是迟早的事。&lt;/p&gt;
+            <guid>https://shixiaocaia.fun/posts/48627/</guid><description>&lt;p&gt;转眼回到家快两周了，所幸到现在还没阳，但感觉阳不阳是迟早的事。&lt;/p&gt;
 &lt;p&gt;在我走后，宿舍楼层封了，舍友和同组的朋友都阳了，接着实验室的师兄告诉我大家都阳，到现在陆续收到其他地方的同学和朋友也阳了。&lt;/p&gt;
 &lt;p&gt;呼，希望大家首先能够保护好自己，但是现阶段很难，真阳了，就好好休息，放宽心态。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;First Love&lt;/strong&gt;&lt;/p&gt;
@@ -73,9 +73,9 @@
 &lt;p&gt;&lt;/p&gt;
 </description></item><item>
             <title>Weekly |有情绪的周记-1</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/1482/</link>
+            <link>https://shixiaocaia.fun/posts/1482/</link>
             <pubDate>Fri, 16 Dec 2022 10:01:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/1482/</guid><description>&lt;blockquote&gt;
+            <guid>https://shixiaocaia.fun/posts/1482/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;情绪化周记，理性看待，随意讨论。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -143,9 +143,9 @@
 &lt;/blockquote&gt;
 </description></item><item>
             <title>去走路，消食也消化情绪</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/54548/</link>
+            <link>https://shixiaocaia.fun/posts/54548/</link>
             <pubDate>Sat, 10 Dec 2022 18:22:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/54548/</guid><description>
+            <guid>https://shixiaocaia.fun/posts/54548/</guid><description>
 
 &lt;h2 class=&#34;group &#34; id=&#34;秋天是有故事的&#34;
     &gt;秋天是有故事的&lt;a href=&#34;#%e7%a7%8b%e5%a4%a9%e6%98%af%e6%9c%89%e6%95%85%e4%ba%8b%e7%9a%84&#34;
@@ -201,9 +201,9 @@
 &lt;/blockquote&gt;
 </description></item><item>
             <title>人是奇怪的动物</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/14054/</link>
+            <link>https://shixiaocaia.fun/posts/14054/</link>
             <pubDate>Sun, 04 Dec 2022 19:22:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/14054/</guid><description>
+            <guid>https://shixiaocaia.fun/posts/14054/</guid><description>
 
 &lt;h2 class=&#34;group &#34; id=&#34;开心的&#34;
     &gt;开心的&lt;a href=&#34;#%e5%bc%80%e5%bf%83%e7%9a%84&#34;
@@ -259,9 +259,9 @@
 &lt;p&gt;Life is still beautiful~&lt;/p&gt;
 </description></item><item>
             <title>来到这个世界的第23年</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E7%AC%AC23%E5%B9%B4/</link>
+            <link>https://shixiaocaia.fun/posts/%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E7%AC%AC23%E5%B9%B4/</link>
             <pubDate>Sun, 27 Nov 2022 12:30:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E7%AC%AC23%E5%B9%B4/</guid><description>&lt;p&gt;把最近的情绪哗啦的放出来~&lt;/p&gt;
+            <guid>https://shixiaocaia.fun/posts/%E6%9D%A5%E5%88%B0%E8%BF%99%E4%B8%AA%E4%B8%96%E7%95%8C%E7%9A%84%E7%AC%AC23%E5%B9%B4/</guid><description>&lt;p&gt;把最近的情绪哗啦的放出来~&lt;/p&gt;
 
 
 &lt;h2 class=&#34;group &#34; id=&#34;熬完了第一学期课&#34;
@@ -383,9 +383,9 @@
 &lt;p&gt;吐槽：没有给我发生日快乐的几个现实朋友，你们还有十二个小时不到，抓紧点（不是），还是希望你们能够热爱生活，好好的生活，生日什么的都是虚的。&lt;/p&gt;
 &lt;p&gt;&lt;/p&gt;</description></item><item>
             <title>Hexo-AirCloud主题装修指南</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/53903/</link>
+            <link>https://shixiaocaia.fun/posts/53903/</link>
             <pubDate>Thu, 17 Nov 2022 12:09:15 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/53903/</guid><description>&lt;blockquote&gt;
+            <guid>https://shixiaocaia.fun/posts/53903/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检索到这篇文章。&lt;/p&gt;
 &lt;p&gt;此外，Aircloud主题相比其他完善的主题，有太多需要更改的地方，去使用的人也不会太多，但是开源免费的东西，希望大家还是友好点不要一味向作者伸手，自己改也有乐趣！都去参与才会有一个良好的社区氛围。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -726,9 +726,9 @@
 &lt;/blockquote&gt;
 </description></item><item>
             <title>Weekly |好好生活</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/36833/</link>
+            <link>https://shixiaocaia.fun/posts/36833/</link>
             <pubDate>Tue, 15 Nov 2022 21:01:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/36833/</guid><description>&lt;blockquote&gt;
+            <guid>https://shixiaocaia.fun/posts/36833/</guid><description>&lt;blockquote&gt;
 &lt;p&gt;把英语pre拖到了上周末，导致周末没有时间写周记。有在想是不是每周都要都写一篇呢，上周打破了之前的周记约定。&lt;/p&gt;
 &lt;p&gt;心里算计着，要不每两周一篇？不不不，还是默认每周去写，但是有时候情绪不够时，不写也不责怪自己，少点压力。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -757,9 +757,9 @@
 &lt;/blockquote&gt;
 </description></item><item>
             <title>Weekly |美式就好</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/47435/</link>
+            <link>https://shixiaocaia.fun/posts/47435/</link>
             <pubDate>Fri, 04 Nov 2022 21:01:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/47435/</guid><description>
+            <guid>https://shixiaocaia.fun/posts/47435/</guid><description>
 
 &lt;h2 class=&#34;group &#34; id=&#34;所见所闻&#34;
     &gt;所见所闻&lt;a href=&#34;#%e6%89%80%e8%a7%81%e6%89%80%e9%97%bb&#34;
@@ -805,9 +805,9 @@
 &lt;p&gt;这两天突然有了入冬的感觉，冷飕飕的，出门要加一件毛衣，大家也注意早晚温差~&lt;/p&gt;
 </description></item><item>
             <title>Weekly |换个主题，换个心情</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/24738/</link>
+            <link>https://shixiaocaia.fun/posts/24738/</link>
             <pubDate>Sat, 29 Oct 2022 09:50:22 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/24738/</guid><description>
+            <guid>https://shixiaocaia.fun/posts/24738/</guid><description>
 
 &lt;h2 class=&#34;group &#34; id=&#34;换个主题换个心情&#34;
     &gt;换个主题，换个心情&lt;a href=&#34;#%e6%8d%a2%e4%b8%aa%e4%b8%bb%e9%a2%98%e6%8d%a2%e4%b8%aa%e5%bf%83%e6%83%85&#34;
@@ -856,9 +856,9 @@
 &lt;p&gt;最后，期望下后面的期末考试顺利吧，下周见。&lt;/p&gt;
 </description></item><item>
             <title>Weekly |封校的20天</title>
-            <link>https://my-blog-ten-rouge.vercel.app/posts/22656/</link>
+            <link>https://shixiaocaia.fun/posts/22656/</link>
             <pubDate>Sun, 23 Oct 2022 18:44:15 +0800</pubDate>
-            <guid>https://my-blog-ten-rouge.vercel.app/posts/22656/</guid><description>
+            <guid>https://shixiaocaia.fun/posts/22656/</guid><description>
 
 &lt;h2 class=&#34;group &#34; id=&#34;写信的那些事&#34;
     &gt;写信的那些事&lt;a href=&#34;#%e5%86%99%e4%bf%a1%e7%9a%84%e9%82%a3%e4%ba%9b%e4%ba%8b&#34;
