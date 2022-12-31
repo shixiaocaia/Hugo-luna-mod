@@ -20,7 +20,7 @@ Some introductions...
 
 关于未来，未来谁也不说清，多去体验人生吧。
 
-
+<script type="module" crossorigin src="https://mengrru.github.io/tags/dist/assets/index.63c40ee6.js"></script>
 <style>
     #test {
         width: auto;
