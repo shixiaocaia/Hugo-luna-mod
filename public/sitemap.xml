@@ -2,32 +2,32 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://hugo-theme-luna.imiku.me/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/posts/</loc>
     <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-theme-luna.imiku.me/posts/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/</loc>
     <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-theme-luna.imiku.me/tags/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/tags/</loc>
     <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-theme-luna.imiku.me/tags/%E4%B8%AD%E6%96%87/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/tags/%E4%B8%AD%E6%96%87/</loc>
     <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-theme-luna.imiku.me/2022/04/15/typography.html/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/posts/typography/</loc>
     <lastmod>2022-12-31T13:45:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://hugo-theme-luna.imiku.me/categories/</loc>
+    <loc>https://my-blog-ten-rouge.vercel.app/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

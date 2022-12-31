@@ -8,18 +8,18 @@
 >
 
     <channel>
-        <title>Hugo Theme Luna</title>
-        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://hugo-theme-luna.imiku.me/index.xml%7d" rel="self" type="application/rss+xml" />
-        <link>https://hugo-theme-luna.imiku.me/</link>
-        <managingEditor>Ice-Hazymoon</managingEditor>
+        <title>Shixiaocaia</title>
+        <atom:link href="%7balternate%20%7bRSS%20application/rss&#43;xml%20%20index%20alternate%20%20false%20false%20true%20false%20false%200%7d%20/index.xml%20https://my-blog-ten-rouge.vercel.app/index.xml%7d" rel="self" type="application/rss+xml" />
+        <link>https://my-blog-ten-rouge.vercel.app/</link>
+        <managingEditor>shixiaocaia</managingEditor>
         <description>A simple, performance-first, SEO-friendly Hugo theme</description>
         <lastBuildDate>Fri, 15 Apr 2022 02:49:13 +0200</lastBuildDate>
         <language>en-us</language>
         <generator>Hugo -- gohugo.io</generator><item>
             <title>中文排版测试</title>
-            <link>https://hugo-theme-luna.imiku.me/2022/04/15/typography.html/</link>
+            <link>https://my-blog-ten-rouge.vercel.app/posts/typography/</link>
             <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
-            <guid>https://hugo-theme-luna.imiku.me/2022/04/15/typography.html/</guid><description>&lt;h2 class=&#34;group &#34; id=&#34;中文文章排版实例论语学而篇第一&#34;
+            <guid>https://my-blog-ten-rouge.vercel.app/posts/typography/</guid><description>&lt;h2 class=&#34;group &#34; id=&#34;中文文章排版实例论语学而篇第一&#34;
     &gt;中文文章排版实例：论语学而篇第一&lt;a href=&#34;#%e4%b8%ad%e6%96%87%e6%96%87%e7%ab%a0%e6%8e%92%e7%89%88%e5%ae%9e%e4%be%8b%e8%ae%ba%e8%af%ad%e5%ad%a6%e8%80%8c%e7%af%87%e7%ac%ac%e4%b8%80&#34;
         &gt;&lt;i class=&#34;eva eva-link ml-3 align-middle text-theme opacity-0 transition ease-in-out group-hover:opacity-100&#34;&gt;&lt;/i&gt;&lt;/a
 &gt;&lt;/h2&gt;

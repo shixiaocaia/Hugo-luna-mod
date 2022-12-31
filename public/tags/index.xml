@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Hugo Theme Luna</title>
-    <link>https://hugo-theme-luna.imiku.me/tags/</link>
-    <description>Recent content in Tags on Hugo Theme Luna</description>
+    <title>Tags on Shixiaocaia</title>
+    <link>https://my-blog-ten-rouge.vercel.app/tags/</link>
+    <description>Recent content in Tags on Shixiaocaia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 02:49:13 +0200</lastBuildDate><atom:link href="https://hugo-theme-luna.imiku.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 02:49:13 +0200</lastBuildDate><atom:link href="https://my-blog-ten-rouge.vercel.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>中文</title>
-      <link>https://hugo-theme-luna.imiku.me/tags/%E4%B8%AD%E6%96%87/</link>
+      <link>https://my-blog-ten-rouge.vercel.app/tags/%E4%B8%AD%E6%96%87/</link>
       <pubDate>Fri, 15 Apr 2022 02:49:13 +0200</pubDate>
       
-      <guid>https://hugo-theme-luna.imiku.me/tags/%E4%B8%AD%E6%96%87/</guid>
+      <guid>https://my-blog-ten-rouge.vercel.app/tags/%E4%B8%AD%E6%96%87/</guid>
       <description></description>
     </item>
     
