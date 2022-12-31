@@ -125,13 +125,6 @@ $manuMain:
     params:
       icon: eva eva-folder
     url: /categories/
-  - &mainMenuGitHub
-    name: GitHub
-    weight: 80
-    identifier: github
-    params:
-      icon: eva eva-github
-    url: /github/
   - &mainMenuSearch
     name: Search
     weight: 999
@@ -148,7 +141,6 @@ menu:
     - *mainMenuAbout
     - *mainMenuLinks
     - *mainMenuArchives
-    - *mainMenuGitHub
     - *mainMenuSearch
   # 副导航 / sub-navigation
   # sub:
