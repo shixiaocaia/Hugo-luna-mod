@@ -7,7 +7,15 @@ comments: true
 
 ## 看看天空
 
+{{< gallery >}}
+![](/posts/36-Weekly-29/cover.jpg)
+![](/img/IMG_0348.jpg)
+![](/img/IMG_0488.jpg)
 
+![](/img/IMG_0699.jpg)
+![](/img/IMG_0846.jpg)
+![](/img/IMG_1369.jpg)
+{{< /gallery >}}
 
 ## 所思所想
 
