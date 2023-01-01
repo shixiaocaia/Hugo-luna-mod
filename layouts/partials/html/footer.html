@@ -10,7 +10,7 @@
         <div class="mb-2 flex items-center justify-between text-center md:mb-0">
             <span class="">© {{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
             <span class="mx-1.5 opacity-50"> | </span>
-            {{- T "poweredBy" (dict "Hugo" $hugo "Heart" $heart "Theme" $theme) | safeHTML -}}
+            {{- T "poweredBy" (dict "Hugo" $hugo "Theme" $theme) | safeHTML -}}
         </div>
 
         <div class="flex items-center">
@@ -24,12 +24,11 @@
                 </a>
             {{- end -}}
             
-                    {{$scratch := newScratch}}
+            {{$scratch := newScratch}}
 			{{ range (where .Site.Pages "Kind" "page" )}}
 				{{$scratch.Add "total" .WordCount}}
 			{{ end }}
-			{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}&nbsp;&nbsp;共书写了<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字
-
+			{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}| 共书写了<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字 ·  <font color="#dd6065">&nbsp;{{ len (where .Site.RegularPages "Section" "!=" "") }}&nbsp;</font> 篇文章</br><span><p>
 			{{- if .Site.Params.googleTranslate -}}<div id="google_translate_element" class=" rounded border dark:border-darkBorder overflow-hidden"></div>{{- end -}}
             
         </div>
