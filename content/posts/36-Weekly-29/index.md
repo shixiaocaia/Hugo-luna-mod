@@ -41,6 +41,8 @@ tags:
 
 >}}
 
+> 如果下方标签墙，没有刷新出来，重新加载一下~
+
 <style>
     #test {
         width: auto;
