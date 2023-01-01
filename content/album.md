@@ -8,13 +8,12 @@ comments: true
 ## 看看天空
 
 {{< gallery >}}
-![](/posts/36-Weekly-29/cover.jpg)
-![](/img/IMG_0348.jpg)
-![](/img/IMG_0488.jpg)
+![](https://bu.dusays.com/2023/01/01/63b184eaca4be.jpg)
+![](https://bu.dusays.com/2023/01/01/63b1853283e9b.jpg)
 
-![](/img/IMG_0699.jpg)
-![](/img/IMG_0846.jpg)
-![](/img/IMG_1369.jpg)
+![](https://bu.dusays.com/2023/01/01/63b18543b962b.jpg)
+![](https://bu.dusays.com/2023/01/01/63b18557f1923.jpg)
+![](https://bu.dusays.com/2023/01/01/63b185608f7d6.jpg)
 {{< /gallery >}}
 
 ## 所思所想
