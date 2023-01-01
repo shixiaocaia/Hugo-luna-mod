@@ -4,7 +4,7 @@ tags:
   - 特殊的日子
 slug: 54548
 date: 2022-12-10 18:22:22
-featured_image: cover.png
+featured_image: cover.webp
 ---
 
 ## 秋天是有故事的

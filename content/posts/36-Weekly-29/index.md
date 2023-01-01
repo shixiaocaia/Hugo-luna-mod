@@ -2,7 +2,7 @@
 title: "人生最重要的一件事，就是要去想人生。"
 date: 2023-01-01T08:41:09+08:00
 slug: d20aa08d
-featured_image: cover.jpg
+featured_image: cover.webp
 tags:
   - 年终总结
 ---

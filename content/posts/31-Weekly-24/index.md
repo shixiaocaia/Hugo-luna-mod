@@ -4,7 +4,7 @@ tags:
   - 特殊的日子
 abbrlink: 9
 date: 2022-11-27 12:30:22
-featured_image: cover.png
+featured_image: cover.webp
 ---
 
 把最近的情绪哗啦的放出来~
