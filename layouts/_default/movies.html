@@ -1,0 +1,145 @@
+{{ define "main" }}
+<meta name="referrer" content="no-referrer">
+<div class="post">
+  <style>
+    .gFnzgG,.gFnzgG *{box-sizing:border-box}
+    .fIuTG{display:flex;flex-wrap:wrap;margin:4 -2%;background:0 0;line-height:100%}
+    .dfdORB{width:16%;margin:0 2% 30px;padding:0;font-size:15px}
+    .dfdORB a{text-decoration:none}
+    .kMthTr{margin-top:12px;line-height:1.3;max-height:3rem;overflow:hidden;font-size: 12px}
+    .eysHZq{display:flex;-webkit-box-align:center;align-items:center;margin-top:5px;min-height:16px;line-height:1}
+    .HPRth{position:relative;min-height:87px;overflow:hidden;color:transparent}
+    .HPRth:hover{box-shadow:rgb(48 55 66 / 30%) 0 1rem 2.1rem}
+    .jcTaHb{display:flex;-webkit-box-align:center;align-items:center}
+    .lhtmRw{margin-right:1px;width:12px;height:12px;color:#fccd59}
+    .gaztka{margin-right:1px;width:12px;height:12px;color:#eee}
+    .iibjPt{margin-left:5px;color:#555;font-size:14px}
+    .jvCTkj{margin-bottom:10px}
+    .kEoOHR{display:inline-block;margin-right:15px;text-decoration:none;color:#157efb}
+    .dvtjjf{display:inline-block;color:#555;text-decoration:none;padding:0 5px}
+    .dvtjjf.active{background:rgba(85,85,85,.1)}
+    .hide{display:none}
+    .sort-by{text-align:right;margin-top:-15px}
+    .sort-by-item{margin-left:10px;padding:0 5px;line-height:20px}
+    .sort-by-item.active{background:rgba(85,85,85,.1)}
+    .sort-by-item svg{margin-right:5px}
+    .sc-hKFxyN img{max-width:100%!important;height:auto!important;display:block!important;vertical-align:middle!important}
+    @media(min-width:1024px){
+      .lg\:col-span-6{grid-column:span 6/span 6!important}
+      .lg\:col-start-2{grid-column-start:2!important}
+    }
+    @media (max-width:550px){
+      .jcTaHb,.sc-bdnxRM{display:none}
+    }
+  </style>
+  <script type="text/javascript">
+    function search(e) {
+      document.querySelectorAll('.dfdORB').forEach(item => item.classList.add('hide'));
+      document.querySelector(`.dvtjjf.active[data-search="${e.target.dataset.search}"]`)?.classList.remove('active');
+      if(e.target.dataset.value) {
+        e.target.classList.add('active');
+      }
+      const searchItems = document.querySelectorAll('.dvtjjf.active');
+      const attributes = Array.from(searchItems, searchItem => {
+        const property = `data-${searchItem.dataset.search}`;
+        const logic = searchItem.dataset.method === 'contain' ? '*' : '^';
+        const value = searchItem.dataset.method === 'contain' ? `${searchItem.dataset.value}` : searchItem.dataset.value;
+        return `[${property}${logic}='${value}']`;
+      });
+      const selector = `.dfdORB${attributes.join('')}`;
+      document.querySelectorAll(selector).forEach(item => item.classList.remove('hide'));
+    }
+    window.addEventListener('click', function(e) {
+      if(e.target.classList.contains('sc-gtsrHT')) {
+        e.preventDefault();
+        search(e);
+      }
+    });
+    function sort(e) {
+      const sortBy = e.target.dataset.order;
+      const style = document.createElement('style');
+      style.classList.add('sort-order-style');
+      document.querySelector('style.sort-order-style')?.remove();
+      document.querySelector('.sort-by-item.active')?.classList.remove('active');
+      e.target.classList.add('active');
+      if(sortBy === 'rating') {
+        const movies = Array.from(document.querySelectorAll('.dfdORB'));
+        movies.sort((movieA, movieB) => {
+          const ratingA = parseFloat(movieA.dataset.rating) || 0;
+          const ratingB = parseFloat(movieB.dataset.rating) || 0;
+          if(ratingA === ratingB) {
+            return 0;
+          }
+          return ratingA > ratingB ? -1 : 1;
+        });
+        const stylesheet = movies.map((movie, idx) => `.dfdORB[data-rating="${movie.dataset.rating}"] { order: ${idx}; }`).join('\r\n');
+        style.innerHTML = stylesheet;
+        document.body.appendChild(style);
+      }
+    }
+    window.addEventListener('click', function(e) {
+      if(e.target.classList.contains('sort-by-item')) {
+        e.preventDefault();
+        sort(e);
+      }
+    });
+  </script>
+<div class="lg:col-start-2 lg:col-span-6">
+  {{$movies := getCSV "," "static/douban/movie.csv" }}
+  {{$scratch := newScratch}}
+  {{$scratch.Add "genres" slice}}
+  {{range $idx, $movie := $movies}}
+    {{if ne $idx 0}}
+      {{$scratch.Set "genres" (union ($scratch.Get "genres") (split (index $movie 7) ","))}}
+    {{end}}
+  {{end}}
+  <div class="sc-ksluID gFnzgG">
+    <div class="sc-bdnxRM">
+		</br>
+       <a href="javascript:void 0;" class="sc-gtsrHT kEoOHR" data-search="year" data-method="equal" data-value="">&nbsp全部</a>
+       {{range $year := (seq 2023 -1 2020)}}
+       <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="year" data-method="equal" data-value="{{$year}}">{{$year}}</a>
+       {{end}}
+     </div>
+
+<!-- 喜欢/不喜欢 -->
+    <div class="sc-bdnxRM">
+      <a href="javascript:void 0;" class="sc-gtsrHT kEoOHR" data-search="star" data-method="equal" data-value="">&nbsp全部</a>
+      <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="star" data-method="equal" data-value="5">五星</a>
+      <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="star" data-method="equal" data-value="4">四星</a>
+	  <a href="javascript:void 0;" class="sc-gtsrHT dvtjjf" data-search="star" data-method="equal" data-value="3">三星</a>
+    </div>
+<!-- 喜欢/不喜欢END -->
+<!-- 一个排版用的空行 -->
+    <div>
+      <br>
+    </div>
+<!-- 一个排版用的空行END -->
+    <div class="sc-dIsUp fIuTG">
+      {{range $idx, $movie := $movies}}
+      {{if ne $idx 0 }}
+      <div 
+        class="sc-gKAaRy dfdORB" 
+        data-year="{{index $movie 9}}" 
+        data-star="{{index $movie 8}}"
+        data-rating="{{index $movie 6}}"
+        data-genres="{{index $movie 7}}"  
+      >
+        <a rel="link" href="{{index $movie 5}}" target="_blank">
+          <div class="sc-hKFxyN HPRth">
+            <div class="lazyload-wrapper ">
+              <img class="avatar" src="{{index $movie 3}}" referrer-policy="no-referrer" loading="lazy" alt="{{index $movie 1}}" width="150" height="220">
+            </div>
+          </div>
+          <div class="sc-iCoGMd kMthTr">{{index $movie 1}}</div>
+          
+        </a>
+      </div>
+      {{end}}
+      {{end}}
+    </div>  
+  </div>
+</div>
+
+</div>
+{{ end }}

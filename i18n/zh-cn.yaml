@@ -78,6 +78,7 @@ navbar:
     tags: "标签"
     categories: "分类"
     album: "Album"
+    tags-wall: "Tags"
 
 # share
 share:
@@ -128,7 +129,7 @@ switchLang: "切换语言到 {{ . }}"
 noscript: "请启用 JavaScript 来获取更好的体验"
 
 #poweredBy: "由 {{ .Hugo }} {{ .Heart }} {{ .Theme }} 驱动"
-poweredBy: "Powered By {{ .Hugo }} & {{ .Theme }}"
+poweredBy: "Powered By {{ .Hugo }} & {{ .Theme }} & {{ .Upyun }} | {{ .Beian }}"
 notFound: "未找到页面，点击返回首页"
 
 bionicReading: "更快的阅读"

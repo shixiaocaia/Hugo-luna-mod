@@ -1,8 +1,7 @@
 {{- $hugo := `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>` -}}
-{{- $heart := `<span class="text-xs opacity-70">❤</span>` -}}
 {{- $theme := printf `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://github.com/Ice-Hazymoon/hugo-theme-luna" target="_blank" rel="noopener noreferrer">Luna</a>` -}}
-
-
+{{- $upyun := printf `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener noreferrer">又拍云</a>` -}}
+{{- $beian := printf `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">苏ICP备2022036708号-1 </a>` -}}
 <footer>
     <div
         class="com-footer flex flex-col items-center border-t py-4 px-4 text-sm leading-none text-gray-600 dark:border-darkBorder dark:text-darkTextPlaceholder md:flex-row md:justify-between"
@@ -10,25 +9,22 @@
         <div class="mb-2 flex items-center justify-between text-center md:mb-0">
             <span class="">© {{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
             <span class="mx-1.5 opacity-50"> | </span>
-            {{- T "poweredBy" (dict "Hugo" $hugo "Theme" $theme) | safeHTML -}}
-        </div>
-
-        <div class="flex items-center">
+            {{- T "poweredBy" (dict "Hugo" $hugo "Theme" $theme "Upyun" $upyun "Beian" $beian) | safeHTML -}}
             {{- if or .Site.Params.rss.enabled .Site.Params.sitemap -}}
                 <span class="noscript-hidden mx-1.5 hidden opacity-50 md:block"> | </span>
-            {{- end -}}
-            {{- if .Site.Params.rss.enabled -}}
-                <a data-no-swup href="{{- "/index.xml" | absLangURL -}}" target="_blank" class="mr-1.5 hover:text-theme">
-                    <span class=" md:hidden lg:inline">{{- $.Site.Data.luna.icon.rss | safeHTML -}}</span>
-                    <span>RSS</span>
-                </a>
-            {{- end -}}
-            
+            {{- end -}}			
+			<a data-no-swup href="{{- "/index.xml" | absLangURL -}}" target="_blank" class="mr-1.5 hover:text-theme">
+				<span class=" md:hidden lg:inline">{{- $.Site.Data.luna.icon.rss | safeHTML -}}</span>
+				<span>RSS</span>
+			</a>			
+        </div>
+
+        <div class="flex items-center">            
             {{$scratch := newScratch}}
 			{{ range (where .Site.Pages "Kind" "page" )}}
 				{{$scratch.Add "total" .WordCount}}
 			{{ end }}
-			{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}| 共书写了<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字 ·  <font color="#dd6065">&nbsp;{{ len (where .Site.RegularPages "Section" "!=" "") }}&nbsp;</font> 篇文章</br><span><p>
+			{{$var :=  $scratch.Get "total"}}{{$var = div $var 100.0}}{{$var = math.Ceil $var}}{{$var = div $var 10.0}}共写了<font color="#dd6065">&nbsp;{{$var}}k&nbsp;</font>字 ·  <font color="#dd6065">&nbsp;{{ len (where .Site.RegularPages "Section" "!=" "") }}&nbsp;</font> 篇文章· <font color="#dd6065">&nbsp;<a id="days">0</a>&nbsp;</font>天</br><span><p>
 			{{- if .Site.Params.googleTranslate -}}<div id="google_translate_element" class=" rounded border dark:border-darkBorder overflow-hidden"></div>{{- end -}}
             
         </div>
@@ -71,6 +67,14 @@
     {{- if and .Site.Params.customScript .Site.Params.customScript.enabled -}}
         {{- partial "scripts/custom" . -}}
     {{- end -}}
+   <script>
+    var s1 = '2022-06-03';//设置为建站时间
+    s1 = new Date(s1.replace(/-/g, "/"));
+    s2 = new Date();
+    var days = s2.getTime() - s1.getTime();
+    var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+    document.getElementById('days').innerHTML = number_of_days;
+    </script>
 </footer>
 
 

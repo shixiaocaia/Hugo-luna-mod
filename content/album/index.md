@@ -30,5 +30,5 @@ comments: true
 
 ## 博客折腾记录
 
-{{< carousel "/img/BLOG/stellar.webp" "/img/BLOG/docsify.webp" "/img/BLOG/aircloud.webp" >}}
+{{< carousel "/img/BLOG/stellar.webp" "/img/BLOG/docsify.webp" "/img/BLOG/aircloud.webp" "/img/BLOG/luna.webp">}}
 

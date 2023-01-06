@@ -2,42 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://shixiaocaia.fun/posts/7aee45b6/</loc>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://shixiaocaia.fun/posts/</loc>
-    <lastmod>2023-01-01T22:33:48+08:00</lastmod>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/</loc>
-    <lastmod>2023-01-01T22:33:48+08:00</lastmod>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/tags/</loc>
-    <lastmod>2023-01-01T22:33:48+08:00</lastmod>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/tags/%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/tags/%E5%80%92%E8%85%BE%E4%B8%9C%E4%B8%9C/</loc>
+    <lastmod>2023-01-06T17:06:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/tags/%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</loc>
-    <lastmod>2023-01-01T22:33:48+08:00</lastmod>
+    <lastmod>2023-01-03T21:30:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/posts/d20aa08d/</loc>
-    <lastmod>2023-01-01T22:33:48+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://shixiaocaia.fun/album/</loc>
-    <lastmod>2023-01-01T22:02:27+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://shixiaocaia.fun/posts/48627/</loc>
-    <lastmod>2022-12-31T21:45:47+08:00</lastmod>
+    <lastmod>2023-01-03T21:30:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/tags/%E6%88%91%E6%98%AF%E4%B8%80%E4%B8%AA%E6%80%8E%E6%A0%B7%E7%9A%84%E4%BA%BA/</loc>
+    <lastmod>2023-01-03T21:30:16+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/album/</loc>
+    <lastmod>2023-01-02T09:03:48+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/books/</loc>
+    <lastmod>2023-01-04T14:37:59+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/movies/</loc>
+    <lastmod>2023-01-04T14:14:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://shixiaocaia.fun/posts/48627/</loc>
     <lastmod>2022-12-31T21:45:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -73,12 +98,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/posts/53903/</loc>
-    <lastmod>2022-12-31T19:25:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://shixiaocaia.fun/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-12-31T19:25:44+08:00</lastmod>
+    <lastmod>2023-01-03T22:21:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -112,11 +132,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://shixiaocaia.fun/tags/%E5%80%92%E8%85%BE%E4%B8%9C%E4%B8%9C/</loc>
-    <lastmod>2022-12-31T18:33:42+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://shixiaocaia.fun/posts/8751/</loc>
     <lastmod>2022-12-31T18:33:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -128,7 +143,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/posts/44623/</loc>
-    <lastmod>2022-12-31T18:33:42+08:00</lastmod>
+    <lastmod>2023-01-03T21:29:42+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -138,7 +153,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/posts/26102/</loc>
-    <lastmod>2022-12-31T18:33:42+08:00</lastmod>
+    <lastmod>2023-01-03T21:29:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -168,7 +183,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/posts/57513/</loc>
-    <lastmod>2022-12-31T18:33:42+08:00</lastmod>
+    <lastmod>2023-01-03T21:29:47+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -243,7 +258,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://shixiaocaia.fun/about/</loc>
-    <lastmod>2023-01-01T22:35:11+08:00</lastmod>
+    <lastmod>2023-01-06T16:59:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

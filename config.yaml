@@ -90,48 +90,34 @@ $manuMain:
     params:
       icon: eva eva-home
     url: /
+  - &mainMenuArchives
+    name: Archives
+    weight: 20
+    identifier: archives
+    params:
+      icon: eva eva-bar-chart
+    url: /archives/
   - &mainMenuAbout
     name: About
-    weight: 20
+    weight: 30
     identifier: about
     params:
       icon: eva eva-heart
     url: /about/
   - &mainMenuLinks
     name: Links
-    weight: 30
+    weight: 40
     identifier: links
     params:
       icon: eva eva-people
     url: /links/
   - &mainMenuAlbum
     name: Album
-    weight: 35
+    weight: 50
     identifier: album
     params:
       icon: eva eva-film-outline
     url: /album/   
-  - &mainMenuArchives
-    name: Archives
-    weight: 40
-    identifier: archives
-    params:
-      icon: eva eva-bar-chart
-    url: /archives/
-  - &mainMenuTags
-    name: Tags
-    weight: 50
-    identifier: tags
-    params:
-      icon: eva eva-hash
-    url: /tags/
-  - &mainMenuCategories
-    name: Categories
-    weight: 60
-    identifier: categories
-    params:
-      icon: eva eva-folder
-    url: /categories/
   - &mainMenuSearch
     name: Search
     weight: 999
@@ -145,10 +131,10 @@ $manuMain:
 menu:
   main:
     - *mainMenuHome
+    - *mainMenuArchives
     - *mainMenuAbout
     - *mainMenuLinks
     - *mainMenuAlbum
-    - *mainMenuArchives
     - *mainMenuSearch
   # 副导航 / sub-navigation
   # sub:
@@ -262,7 +248,7 @@ params:
   # 网站底部显示运行时间
   # Show site runtime
   runTime:
-    enabled: true
+    enabled: false
     # 网站创建时间
     # Site creation time
     creatTime: 2022/6/03
@@ -328,12 +314,12 @@ params:
 
   # 图片懒加载
   # lazyload image
-  lazyload: true
+  lazyload: false
 
   # 更快速的阅读英文内容, 参考：https://bionic-reading.com/
   # Read English content faster, see https://bionic-reading.com/
   bionicReading:
-    enabled: true
+    enabled: false
     autoBionic: false # 自动启用 Bionic Reading / auto enable Bionic Reading
     skipLinks: false # 跳过链接 / skip links
     excludeWords: [] # 忽略的单词 / ignored words
@@ -423,12 +409,12 @@ params:
       site: "@Ice_Hazymoon"
     image: "featured.png" # in assets folder | false
 
-  author: Ice-Hazymoon
+  author: shixiaocaia
   keywords:
-    - Hugo
-    - Hugo Theme
-    - Luna
-  description: "A simple, performance-first, SEO-friendly Hugo theme"
+    - live
+    - life
+    - love
+  description: "The Universe Responds To Your Frequency"
 
 build:
   noJSConfigInAssets: true
@@ -441,7 +427,7 @@ languages:
       languageIcon: "images/i18n/zh-cn.svg" # in assets folder
       font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
       twitter: 
-        enabled: true
+        enabled: false
         rsshub: "https://rsshub.rssforever.com"
         id: "shixiaocaia"
         imageProcessing: true

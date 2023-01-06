@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="zh-cn" class="lang-zh-cn">
     <head><meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="keywords" content="闲话长说,Hugo,Hugo Theme,Luna," /><meta name="description" content="博客 忘记这周是怎么看到那个博客了，一眼相中，特别简洁，有想要的文章toc，甚至作者还自己写了一个“wiki”特殊格式的文档，能够更好将项目、" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="keywords" content="闲话长说,live,life,love," /><meta name="description" content="博客 忘记这周是怎么看到那个博客了，一眼相中，特别简洁，有想要的文章toc，甚至作者还自己写了一个“wiki”特殊格式的文档，能够更好将项目、" />
 <meta itemprop="description" content="博客 忘记这周是怎么看到那个博客了，一眼相中，特别简洁，有想要的文章toc，甚至作者还自己写了一个“wiki”特殊格式的文档，能够更好将项目、" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <meta itemprop="name" content="Weekly |博客重建 - Shixiaocaia" />
@@ -54,6 +54,16 @@
                     ></i>
                     <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">首页</span>
                 </a><a
+                    title="归档"
+                    data-active-link="/archives/"
+                    href="/archives/"
+                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
+                >
+                    <i
+                        class="eva eva-bar-chart flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
+                    ></i>
+                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">归档</span>
+                </a><a
                     title="关于我"
                     data-active-link="/about/"
                     href="/about/"
@@ -83,16 +93,6 @@
                         class="eva eva-film-outline flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
                     ></i>
                     <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">Album</span>
-                </a><a
-                    title="归档"
-                    data-active-link="/archives/"
-                    href="/archives/"
-                    class=" relative flex cursor-pointer flex-col items-center text-gray-700 transition duration-150 ease-[ease]"
-                >
-                    <i
-                        class="eva eva-bar-chart flex h-8 w-8 items-center justify-center text-3xl leading-none text-gray-500 transition duration-150 ease-[ease] dark:text-darkTextPlaceholder"
-                    ></i>
-                    <span class="mt-1 block text-xs text-gray-400 dark:text-darkText sm:text-sm md:hidden">归档</span>
                 </a><a
                     title="搜索"
                     data-active-link="/search/"
@@ -145,9 +145,7 @@
                 <h1 class="mb-3 text-2xl font-bold 2xl:mb-4">文章目录</h1>
             </header>
             <nav id="TableOfContents"></nav>
-        </aside><section class="article-content typo relative flex-grow px-6 py-5 md:px-10"><i title="更快的阅读" id="bionicReading" class="absolute right-0 top-0 cursor-pointer p-3"
-            ><svg class="w-4 h-4 fill-current text-gray-400" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="10811" ><path d="M480 192c-19.2 0-32-12.8-32-32v-128c0-19.2 12.8-32 32-32s32 12.8 32 32v128c0 19.2-12.8 32-32 32zM160 1024c-6.4 0-19.2 0-25.6-6.4l-128-128c0-6.4-6.4-19.2-6.4-25.6s6.4-19.2 6.4-25.6l512-512c12.8-6.4 38.4-6.4 51.2 0l128 128c0 6.4 6.4 19.2 6.4 25.6s-6.4 19.2-6.4 25.6l-512 512c-6.4 6.4-19.2 6.4-25.6 6.4z m-83.2-160l83.2 83.2 467.2-467.2-83.2-83.2-467.2 467.2zM992 576h-128c-19.2 0-32-12.8-32-32s12.8-32 32-32h128c19.2 0 32 12.8 32 32s-12.8 32-32 32zM768 288c-6.4 0-19.2 0-25.6-6.4-12.8-12.8-12.8-32 0-44.8l96-96c12.8-12.8 32-12.8 44.8 0s12.8 32 0 44.8l-96 96c0 6.4-12.8 6.4-19.2 6.4zM256 288c-6.4 0-19.2 0-25.6-6.4L134.4 185.6c-6.4-12.8-6.4-38.4 0-51.2s32-12.8 44.8 0l96 96c12.8 12.8 12.8 32 0 44.8 0 12.8-12.8 12.8-19.2 12.8zM864 896c-6.4 0-19.2 0-25.6-6.4l-96-96c-12.8-12.8-12.8-32 0-44.8s32-12.8 44.8 0l96 96c12.8 12.8 12.8 32 0 44.8 0 6.4-12.8 6.4-19.2 6.4z" p-id="10812"></path><path d="M544 640c-6.4 0-19.2 0-25.6-6.4l-128-128c-6.4-12.8-6.4-38.4 0-51.2s32-12.8 44.8 0l128 128c12.8 12.8 12.8 38.4 6.4 51.2-6.4 6.4-19.2 6.4-25.6 6.4z" p-id="10813"></path></svg></i
-        ><p><strong>博客</strong></p>
+        </aside><section class="article-content typo relative flex-grow px-6 py-5 md:px-10"><p><strong>博客</strong></p>
 <p>忘记这周是怎么看到那个博客了，一眼相中，特别简洁，有想要的文章toc，甚至作者还自己写了一个“wiki”特殊格式的文档，能够更好将项目、阅读笔记等整合在一起，直接心动了开展。于是开始了漫长的从hugo搬迁回hexo，一开始自己改，再到后面搬作者的源码。这不一个热乎乎的”皮肤“出炉了，争取不要再倒腾了。</p>
 <p>到今天还有点小问题，在stellar主题提交者当中，一个热心老哥帮忙解决了。</p>
 <p>工作</p>
@@ -165,9 +163,9 @@
 >
     <picture class="noscript-hidden"><img
             
-            data-src="https://bu.dusays.com/2022/12/24/63a6b642016b2.jpeg"
-            src="/images/outload.svg"data-data-zoomable
-            data-lazyload data-lazyload-blur
+            src="https://bu.dusays.com/2022/12/24/63a6b642016b2.jpeg"
+            data-zoomable
+            
         />
     </picture>
     <noscript data-lazyload-noscript>
@@ -182,9 +180,9 @@
 >
     <picture class="noscript-hidden"><img
             
-            data-src="https://bu.dusays.com/2022/12/24/63a6b64644509.jpeg"
-            src="/images/outload.svg"data-data-zoomable
-            data-lazyload data-lazyload-blur
+            src="https://bu.dusays.com/2022/12/24/63a6b64644509.jpeg"
+            data-zoomable
+            
         />
     </picture>
     <noscript data-lazyload-noscript>
@@ -257,12 +255,14 @@
     >
         <div class="mb-2 flex items-center justify-between text-center md:mb-0">
             <span class="">© 2022 - 2023</span>
-            <span class="mx-1.5 opacity-50"> | </span>Powered By <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> & <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://github.com/Ice-Hazymoon/hugo-theme-luna" target="_blank" rel="noopener noreferrer">Luna</a></div>
+            <span class="mx-1.5 opacity-50"> | </span>Powered By <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> & <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://github.com/Ice-Hazymoon/hugo-theme-luna" target="_blank" rel="noopener noreferrer">Luna</a> & <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="_blank" rel="noopener noreferrer">又拍云</a> | <a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">苏ICP备2022036708号-1 </a><span class="noscript-hidden mx-1.5 hidden opacity-50 md:block"> | </span><a data-no-swup href="https://shixiaocaia.fun/index.xml" target="_blank" class="mr-1.5 hover:text-theme">
+				<span class=" md:hidden lg:inline"><svg t="1650887361919" class="mr-0.5 w-96 w-3 fill-current text-inherit inline-block align-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3091"><path d="M320.16155 831.918c0 70.738-57.344 128.082-128.082 128.082S63.99955 902.656 63.99955 831.918s57.344-128.082 128.082-128.082 128.08 57.346 128.08 128.082z m351.32 94.5c-16.708-309.2-264.37-557.174-573.9-573.9C79.31155 351.53 63.99955 366.21 63.99955 384.506v96.138c0 16.83 12.98 30.944 29.774 32.036 223.664 14.568 402.946 193.404 417.544 417.544 1.094 16.794 15.208 29.774 32.036 29.774h96.138c18.298 0.002 32.978-15.31 31.99-33.58z m288.498 0.576C943.19155 459.354 566.92955 80.89 97.00555 64.02 78.94555 63.372 63.99955 77.962 63.99955 96.032v96.136c0 17.25 13.67 31.29 30.906 31.998 382.358 15.678 689.254 322.632 704.93 704.93 0.706 17.236 14.746 30.906 31.998 30.906h96.136c18.068-0.002 32.658-14.948 32.01-33.008z" p-id="3092"></path></svg></span>
+				<span>RSS</span>
+			</a>			
+        </div>
 
-        <div class="flex items-center"><span class="noscript-hidden mx-1.5 hidden opacity-50 md:block"> | </span><a data-no-swup href="https://shixiaocaia.fun/index.xml" target="_blank" class="mr-1.5 hover:text-theme">
-                    <span class=" md:hidden lg:inline"><svg t="1650887361919" class="mr-0.5 w-96 w-3 fill-current text-inherit inline-block align-top" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3091"><path d="M320.16155 831.918c0 70.738-57.344 128.082-128.082 128.082S63.99955 902.656 63.99955 831.918s57.344-128.082 128.082-128.082 128.08 57.346 128.08 128.082z m351.32 94.5c-16.708-309.2-264.37-557.174-573.9-573.9C79.31155 351.53 63.99955 366.21 63.99955 384.506v96.138c0 16.83 12.98 30.944 29.774 32.036 223.664 14.568 402.946 193.404 417.544 417.544 1.094 16.794 15.208 29.774 32.036 29.774h96.138c18.298 0.002 32.978-15.31 31.99-33.58z m288.498 0.576C943.19155 459.354 566.92955 80.89 97.00555 64.02 78.94555 63.372 63.99955 77.962 63.99955 96.032v96.136c0 17.25 13.67 31.29 30.906 31.998 382.358 15.678 689.254 322.632 704.93 704.93 0.706 17.236 14.746 30.906 31.998 30.906h96.136c18.068-0.002 32.658-14.948 32.01-33.008z" p-id="3092"></path></svg></span>
-                    <span>RSS</span>
-                </a>
+        <div class="flex items-center">            
+            
 			
 				
 			
@@ -342,11 +342,13 @@
 			
 				
 			
-			| 共书写了<font color="#dd6065">&nbsp;39.6k&nbsp;</font>字 ·  <font color="#dd6065">&nbsp;34&nbsp;</font> 篇文章</br><span><p></div><div id="run-time" class="mt-2 flex-grow text-right md:mt-0">
-    <span>🕓 Run Time:  </span><b id="run-time-d">0</b>
-    <span class="text-xs">Days</span>
-</div>
-</div>
+				
+			
+				
+			
+				
+			
+			共写了<font color="#dd6065">&nbsp;41.7k&nbsp;</font>字 ·  <font color="#dd6065">&nbsp;35&nbsp;</font> 篇文章· <font color="#dd6065">&nbsp;<a id="days">0</a>&nbsp;</font>天</br><span><p></div></div>
 
     <script type="text/javascript">
 window.__theme = {
@@ -356,9 +358,9 @@ window.__theme = {
     $version:"",
     lang: 'zh-cn',
     imageZoom: true ,
-    lazyload: true ,
+    lazyload: false ,
     bionicReading: {
-        enabled: true ,
+        enabled: false ,
         skipLinks: false ,
         autoBionic: false ,
         excludeWords:[],
@@ -401,9 +403,9 @@ window.__theme = {
             dark: "切换到夜间模式",
             light: "切换到日间模式"
         }
-    },creatTime: "2022\/6\/03"}
+    },}
 </script>
-<script type="text/javascript" src="/ts/main.3a087e4b73f181d8f266b222d2907cc17e5d415bab727449b884032252d4ed69.js" defer integrity="sha256-Ogh&#43;S3PxgdjyZrIi0pB8wX5dQVurcnRJuIQDIlLU7Wk="></script><script>
+<script type="text/javascript" src="/ts/main.b6f8689c92d50bbabe3ec48d535edb3f9cad9723ff3d210022be8607ca807dd6.js" defer integrity="sha256-tvhonJLVC7q&#43;PsSNU17bP5ytlyP/PSEAIr6GB8qAfdY="></script><script>
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
             navigator.serviceWorker.register('\/sw.js');
@@ -424,6 +426,14 @@ window.__theme = {
     
     
 </script>
+<script>
+    var s1 = '2022-06-03';
+    s1 = new Date(s1.replace(/-/g, "/"));
+    s2 = new Date();
+    var days = s2.getTime() - s1.getTime();
+    var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+    document.getElementById('days').innerHTML = number_of_days;
+    </script>
 </footer>
 
 

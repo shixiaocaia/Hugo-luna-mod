@@ -1,0 +1,58 @@
+{{ define "main" }}
+    <style>
+    #test {
+        width: auto;
+        height: auto;
+        overflow: hidden !important; 
+      }
+    #my-tags mark {
+    position: initial!important;
+    }
+    </style>
+      <div id="test"></div>
+      <script src="/tags-wall/tags-wall.js"></script>
+      <script>
+        Tags({
+          style: {
+            fn: Style1,
+            title: '你的名字',
+            animation: 0,
+            scale: 0.48,
+            randomScoreIfNoSetting: 1 // 如果是1，则如果未设置标签大小那么随机设置一个大小；否则使用默认大小5
+          },
+          text: `
+          偶尔读书/10/关于我/https:&#47;&#47;cactus-mod.mantyke.icu&#47;books
+          有时电影/8/关于我/https:&#47;&#47;cactus-mod.mantyke.icu/movies
+          抽空游戏/7/关于我/https:&#47;&#47;cactus-mod.mantyke.icu/games
+          拜访朋友们/10/关于我/https:&#47;&#47;cactus-mod.mantyke.icu&#47;friends
+          Nintendo Switch/8/是玩家
+          买书如山倒/&#47;/是读者
+          读书如抽丝/&#47;/是读者
+          `,
+          rootDOM: document.getElementById('test')
+        })
+
+       /** 使用说明
+  * 1. 将 index.js 引入自己的页面
+  * 2. 在引入上述脚本的下方插入代码：
+      Tags({
+        style: {
+          fn: Style1,
+          title: '你的名字',
+          animation: 1 // 如果是1，则开启动画，否则不开启动画
+          scale: 1 // 放缩比例，即可调节标签和背景字的整体大小
+        },
+        text: `
+        <标签名>/<分数（0-10，决定标签大小）>/<标签类型>/<链接（点击标签会跳转到这个链接）>
+        ...
+        `, // 可以写在单独的文件中，如果写在的文件中，需要像上方那样使用fetch请求文件
+        rootDOM: document.getElementById('目标载入dom的id')
+      })
+  */
+    </script>
+      </script>
+
+
+
+{{ end }}
+

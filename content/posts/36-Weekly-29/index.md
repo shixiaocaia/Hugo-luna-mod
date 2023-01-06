@@ -5,6 +5,7 @@ slug: d20aa08d
 featured_image: cover.webp
 tags:
   - 年终总结
+  - 我是一个怎样的人
 ---
 
 > 回望过去更坚定，对未来抱有期望。

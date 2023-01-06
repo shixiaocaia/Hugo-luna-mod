@@ -6,7 +6,27 @@
     <description>Recent content in 倒腾东东 on Shixiaocaia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 05 Oct 2022 09:20:15 +0800</lastBuildDate><atom:link href="https://shixiaocaia.fun/tags/%E5%80%92%E8%85%BE%E4%B8%9C%E4%B8%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 21:21:04 +0800</lastBuildDate><atom:link href="https://shixiaocaia.fun/tags/%E5%80%92%E8%85%BE%E4%B8%9C%E4%B8%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo-Luna主题装修指南</title>
+      <link>https://shixiaocaia.fun/posts/7aee45b6/</link>
+      <pubDate>Tue, 03 Jan 2023 21:21:04 +0800</pubDate>
+      
+      <guid>https://shixiaocaia.fun/posts/7aee45b6/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;新年新气象，换了新主题 Hugo Luna !&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hexo-AirCloud主题装修指南</title>
+      <link>https://shixiaocaia.fun/posts/53903/</link>
+      <pubDate>Thu, 17 Nov 2022 12:09:15 +0800</pubDate>
+      
+      <guid>https://shixiaocaia.fun/posts/53903/</guid>
+      <description>考完了矩阵论，正逢阴雨天，不去工位了，把这篇装修写了，希望能帮助到使用这个主题的大家，不知道为什么我添加谷歌收录没有成功，可能也没什么人能检</description>
+    </item>
+    
     <item>
       <title>与内容农场抗争</title>
       <link>https://shixiaocaia.fun/posts/8751/</link>
@@ -14,6 +34,33 @@
       
       <guid>https://shixiaocaia.fun/posts/8751/</guid>
       <description>检索体验 现在就算是通过科学方式，使用谷歌搜索，也无法最大化获取有效信息了，大量的内容农场涌入，当你检索一个信息时，映入眼帘的全是下图所示的内</description>
+    </item>
+    
+    <item>
+      <title>Hexo-Stellar简化 &#43; Docsify搭建</title>
+      <link>https://shixiaocaia.fun/posts/44623/</link>
+      <pubDate>Sun, 25 Sep 2022 23:09:15 +0800</pubDate>
+      
+      <guid>https://shixiaocaia.fun/posts/44623/</guid>
+      <description>Stellar简化 当初从Hugo迁移回Hexo就是看上了stellar主题的wiki的结构，toc目录，一个个框架，看起来特别简洁舒服。 在使</description>
+    </item>
+    
+    <item>
+      <title>Hexo-博客搭建</title>
+      <link>https://shixiaocaia.fun/posts/26102/</link>
+      <pubDate>Tue, 20 Sep 2022 12:45:35 +0800</pubDate>
+      
+      <guid>https://shixiaocaia.fun/posts/26102/</guid>
+      <description>环境配置 vercel部署 选择hexo模板使用vercel 一键部署，会在GitHub下创建一个Rep。 202207290641489 本地环境 1 2 3 4 5 6 7 8 9 10 11 git init git remote</description>
+    </item>
+    
+    <item>
+      <title>Hexo-Stellar博客装修</title>
+      <link>https://shixiaocaia.fun/posts/57513/</link>
+      <pubDate>Fri, 26 Aug 2022 07:25:35 +0800</pubDate>
+      
+      <guid>https://shixiaocaia.fun/posts/57513/</guid>
+      <description>BBtalk Leancloud创建存储空间 正常按照BBtalk中文文档 配置，注意现在Leancloud需要绑定国内域名使用，否则可能造成403发布失败</description>
     </item>
     
   </channel>
